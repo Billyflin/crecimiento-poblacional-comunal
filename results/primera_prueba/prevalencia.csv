@@ -1,0 +1,7 @@
+item,drug,class,discovery_R_count,discovery_n,discovery_R_rate,validation_R_count,validation_n,validation_R_rate
+AMI,Amikacina,Aminoglucósidos,15,2778,0.005399568034557235,6,1155,0.005194805194805195
+GEN,Gentamicina,Aminoglucósidos,93,2778,0.03347732181425486,37,1155,0.032034632034632034
+FOV,Cefovecina,Cefalosporinas,340,2778,0.12239020878329733,156,1155,0.13506493506493505
+CPD,Cefpodoxima,Cefalosporinas,359,2778,0.12922966162706984,165,1155,0.14285714285714285
+EFX,Enrofloxacino,Fluoroquinolonas,262,2778,0.09431245500359971,106,1155,0.09177489177489177
+MAR,Marbofloxacino,Fluoroquinolonas,261,2778,0.0939524838012959,106,1155,0.09177489177489177

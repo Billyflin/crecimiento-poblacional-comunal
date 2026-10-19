@@ -1,0 +1,24 @@
+{
+  "title": "Acceso digital y condiciones habitacionales de hogares particulares, Censo 2024",
+  "unit": "Hogar particular: (id_vivienda, id_hogar), tipo_operativo=2",
+  "join": "Hogares a viviendas, muchos a uno por id_vivienda; verificar unicidad, referencia y geografía",
+  "features": ["area", "p12_tenencia_viv", "tipologia_hogar", "p6_fuente_agua", "indice_hacinamiento", "p15b_serv_compu", "p15d_serv_internet_fija"],
+  "missing": "Excluir hogares con NA, -99 o valores fuera del diccionario en cualquiera de las siete variables; contabilizar exclusiones por variable y región",
+  "antecedent_groups": ["area", "tenencia", "tipologia", "agua", "hacinamiento"],
+  "consequent_groups": ["computador", "internet"],
+  "maximum_antecedent_size": 2,
+  "partition": "Hash entero determinista de id_vivienda con semilla 2024: 70% descubrimiento, 15% selección y 15% prueba interna. Todos los hogares de una vivienda permanecen juntos",
+  "configurations": [
+    {"name": "amplia", "min_support": 0.005, "min_confidence": 0.4},
+    {"name": "conservadora", "min_support": 0.02, "min_confidence": 0.6}
+  ],
+  "min_discovery_lift": 1.2,
+  "two_condition_min_confidence_gain": 0.05,
+  "selection": {"min_support": 0.003, "min_lift": 1.15, "min_antecedent_count": 1000, "max_confidence_drift": 0.05, "confidence_tolerance": 0.05},
+  "configuration_selection_order": ["Número de categorías consecuentes cubiertas", "Proporción de candidatas que supera selección", "Menor longitud media del antecedente", "Mayor soporte mínimo"],
+  "test": "Calcular métricas de todas las reglas seleccionadas después de cerrar la configuración. No filtrar ni ordenar con prueba",
+  "geographic_audit": "Publicar métricas regionales sobre todos los casos completos, sin seleccionar reglas regionales. En la aplicación mostrar una regla regional solo con al menos 100 antecedentes",
+  "application": "Consultar antecedentes exactos de una o dos condiciones y una región opcional; ordenar por lift de descubrimiento. Métricas descriptivas calculadas sobre todos los casos completos del territorio",
+  "interpretation": "Asociaciones descriptivas del mismo censo; no causalidad, predicción individual, elegibilidad de beneficios ni validación externa",
+  "license": "Atribución INE, cambios explícitos y derivados de datos bajo CC BY-SA 4.0"
+}

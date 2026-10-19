@@ -1,0 +1,294 @@
+{
+  "included_communes": 316,
+  "core_comparison_communes": 314,
+  "independent_2017_check": {
+    "compared_communes": 346,
+    "differences": []
+  },
+  "exclusions": [
+    {
+      "code": 1101,
+      "name": "Iquique",
+      "region": "Tarapacá",
+      "region_code": 1,
+      "key": "iquique",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 1107,
+      "name": "Alto Hospicio",
+      "region": "Tarapacá",
+      "region_code": 1,
+      "key": "altohospicio",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 3102,
+      "name": "Caldera",
+      "region": "Atacama",
+      "region_code": 3,
+      "key": "caldera",
+      "reason": "Dos etiquetas Caldera en REDATAM 1992; no corregir ni unir por conjetura"
+    },
+    {
+      "code": 4105,
+      "name": "Paihuano",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "paihuano",
+      "reason": "Cambio de límite de Ley 20.721 (2014)"
+    },
+    {
+      "code": 4106,
+      "name": "Vicuña",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "vicuna",
+      "reason": "Cambio de límite de Ley 20.721 (2014)"
+    },
+    {
+      "code": 4302,
+      "name": "Combarbalá",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "combarbala",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 4304,
+      "name": "Punitaqui",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "punitaqui",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 5103,
+      "name": "Concón",
+      "region": "Valparaíso",
+      "region_code": 5,
+      "key": "concon",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 5109,
+      "name": "Viña del Mar",
+      "region": "Valparaíso",
+      "region_code": 5,
+      "key": "vinadelmar",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 5502,
+      "name": "Calera",
+      "region": "Valparaíso",
+      "region_code": 5,
+      "key": "calera",
+      "reason": "Dos etiquetas Caldera en REDATAM 1992; no corregir ni unir por conjetura"
+    },
+    {
+      "code": 13112,
+      "name": "La Pintana",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "lapintana",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 13201,
+      "name": "Puente Alto",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "puentealto",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 13604,
+      "name": "Padre Hurtado",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "padrehurtado",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 13605,
+      "name": "Peñaflor",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "penaflor",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 7106,
+      "name": "Pelarco",
+      "region": "Maule",
+      "region_code": 7,
+      "key": "pelarco",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 7110,
+      "name": "San Rafael",
+      "region": "Maule",
+      "region_code": 7,
+      "key": "sanrafael",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 16101,
+      "name": "Chillán",
+      "region": "Ñuble",
+      "region_code": 16,
+      "key": "chillan",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 16103,
+      "name": "Chillán Viejo",
+      "region": "Ñuble",
+      "region_code": 16,
+      "key": "chillanviejo",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8101,
+      "name": "Concepción",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "concepcion",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8103,
+      "name": "Chiguayante",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "chiguayante",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8108,
+      "name": "San Pedro de La paz",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "sanpedrodelapaz",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8110,
+      "name": "Talcahuano",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "talcahuano",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 8112,
+      "name": "Hualpén",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "hualpen",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 8311,
+      "name": "Santa Bárbara",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "santabarbara",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 8314,
+      "name": "Alto Biobío",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "altobiobio",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 9105,
+      "name": "Freire",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "freire",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 9111,
+      "name": "Nueva Imperial",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "nuevaimperial",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 9121,
+      "name": "Cholchol",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "cholchol",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 10101,
+      "name": "Puerto Montt",
+      "region": "Los Lagos",
+      "region_code": 10,
+      "key": "puertomontt",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 10109,
+      "name": "Puerto Varas",
+      "region": "Los Lagos",
+      "region_code": 10,
+      "key": "puertovaras",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    }
+  ],
+  "recovered": [
+    {
+      "code": 9101,
+      "name": "Temuco",
+      "usable_years": [
+        1992,
+        2002,
+        2017,
+        2024
+      ],
+      "note": "La tabla REDATAM de 1992 ya identifica Temuco y Padre Las Casas por separado. Se reserva Temuco fuera del ajuste histórico v2 para la aplicación adicional."
+    },
+    {
+      "code": 9112,
+      "name": "Padre Las Casas",
+      "usable_years": [
+        2002,
+        2017,
+        2024
+      ],
+      "note": "No se utiliza 1992 en su historia. Se usa el tabulado actual de 2002, publicado con DPA actualizada por el INE, y los censos posteriores al cambio de 2012."
+    }
+  ],
+  "geography_limit": "Recuperación preliminar: fuentes legales y publicación INE actualizada; falta auditoría cartográfica completa. No se sumaron habitantes de San Ramón manualmente.",
+  "sources": [
+    {
+      "title": "Ley 19.391, creación de Padre Las Casas, 1995",
+      "url": "https://www.bcn.cl/leychile/Navegar?idNorma=30758"
+    },
+    {
+      "title": "Ley 20.578, traspaso desde Freire, 2012",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1038291"
+    },
+    {
+      "title": "INE, actualización de bases 2002 y 2017 a nueva DPA, comunicado 12-09-2018",
+      "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2019/09/16/ine-actualiza-informaci%C3%B3n-de-censo-2017-a-la-nueva-divisi%C3%B3n-pol%C3%ADtica-administrativa-incorporando-la-nueva-regi%C3%B3n-de-%C3%B1uble"
+    },
+    {
+      "title": "MMA, antecedentes territoriales Temuco y Padre Las Casas, 2015",
+      "url": "https://airechile.mma.gob.cl/download/DO-PDA-Temuco-y-Padre-Las-%20Casas.pdf",
+      "scope": "Solo evidencia de cambios de límites; ninguna cifra de 2012 se usa en entrenamiento o respuestas."
+    }
+  ],
+  "population_scope": "Residentes habituales con comuna identificada; no se imputa residencia desconocida."
+}

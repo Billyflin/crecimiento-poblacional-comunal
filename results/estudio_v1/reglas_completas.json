@@ -1,0 +1,2772 @@
+[
+  {
+    "id": "GEN__FOV",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Aminoglucósidos -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 75,
+      "consequent_count": 270,
+      "joint_count": 42,
+      "support": 0.019151846785225718,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.56,
+      "lift": 4.548444444444445,
+      "confidence_ci95_low": 0.4474677138145549,
+      "confidence_ci95_high": 0.6666854250875085
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 18,
+      "consequent_count": 70,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.3333333333333333,
+      "lift": 2.7857142857142856,
+      "confidence_ci95_low": 0.1627877475083369,
+      "confidence_ci95_high": 0.5625053270405489
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 6,
+      "largest_lab_antecedent_share": 0.10666666666666667,
+      "leave_one_lab_out_min_lift": 4.277492405412869,
+      "leave_one_lab_out_min_confidence": 0.5352112676056338
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 37,
+      "consequent_count": 156,
+      "joint_count": 25,
+      "support": 0.021645021645021644,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.6756756756756757,
+      "lift": 5.002598752598753,
+      "confidence_ci95_low": 0.514636672419722,
+      "confidence_ci95_high": 0.8036673347185581
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 19,
+        "consequent_count": 74,
+        "joint_count": 11,
+        "support": 0.018739352640545145,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.5789473684210527,
+        "lift": 4.592460881934567,
+        "confidence_ci95_low": 0.3627590353425504,
+        "confidence_ci95_high": 0.7685810871754576
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 18,
+        "consequent_count": 82,
+        "joint_count": 14,
+        "support": 0.02464788732394366,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.7777777777777778,
+        "lift": 5.387533875338754,
+        "confidence_ci95_low": 0.5478541568378739,
+        "confidence_ci95_high": 0.9099907189139831
+      }
+    }
+  },
+  {
+    "id": "GEN__CPD",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Aminoglucósidos -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 75,
+      "consequent_count": 286,
+      "joint_count": 42,
+      "support": 0.019151846785225718,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.56,
+      "lift": 4.293986013986014,
+      "confidence_ci95_low": 0.4474677138145549,
+      "confidence_ci95_high": 0.6666854250875085
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 18,
+      "consequent_count": 73,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.3333333333333333,
+      "lift": 2.671232876712329,
+      "confidence_ci95_low": 0.1627877475083369,
+      "confidence_ci95_high": 0.5625053270405489
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 6,
+      "largest_lab_antecedent_share": 0.10666666666666667,
+      "leave_one_lab_out_min_lift": 4.07000210216523,
+      "leave_one_lab_out_min_confidence": 0.5352112676056338
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 37,
+      "consequent_count": 165,
+      "joint_count": 25,
+      "support": 0.021645021645021644,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.6756756756756757,
+      "lift": 4.72972972972973,
+      "confidence_ci95_low": 0.514636672419722,
+      "confidence_ci95_high": 0.8036673347185581
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 19,
+        "consequent_count": 79,
+        "joint_count": 11,
+        "support": 0.018739352640545145,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.5789473684210527,
+        "lift": 4.301798800799467,
+        "confidence_ci95_low": 0.3627590353425504,
+        "confidence_ci95_high": 0.7685810871754576
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 18,
+        "consequent_count": 86,
+        "joint_count": 14,
+        "support": 0.02464788732394366,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.7777777777777778,
+        "lift": 5.136950904392765,
+        "confidence_ci95_low": 0.5478541568378739,
+        "confidence_ci95_high": 0.9099907189139831
+      }
+    }
+  },
+  {
+    "id": "GEN__EFX",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Aminoglucósidos -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 75,
+      "consequent_count": 205,
+      "joint_count": 45,
+      "support": 0.02051983584131327,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.6,
+      "lift": 6.418536585365853,
+      "confidence_ci95_low": 0.48688038796210664,
+      "confidence_ci95_high": 0.7033748435413321
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 18,
+      "consequent_count": 57,
+      "joint_count": 10,
+      "support": 0.017094017094017096,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.5555555555555556,
+      "lift": 5.701754385964913,
+      "confidence_ci95_low": 0.33716415642042774,
+      "confidence_ci95_high": 0.7544048187299437
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 6,
+      "largest_lab_antecedent_share": 0.10666666666666667,
+      "leave_one_lab_out_min_lift": 6.129548122065728,
+      "leave_one_lab_out_min_confidence": 0.5774647887323944
+    },
+    "passes_selection_2022": true,
+    "passes_lab_checks": true,
+    "eligible": true,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 37,
+      "consequent_count": 106,
+      "joint_count": 26,
+      "support": 0.022510822510822513,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.7027027027027027,
+      "lift": 7.656807751147374,
+      "confidence_ci95_low": 0.5421686408886435,
+      "confidence_ci95_high": 0.8251052135016799
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 19,
+        "consequent_count": 46,
+        "joint_count": 12,
+        "support": 0.020442930153321975,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.631578947368421,
+        "lift": 8.05949656750572,
+        "confidence_ci95_low": 0.41039533164803066,
+        "confidence_ci95_high": 0.8085048725486492
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 18,
+        "consequent_count": 60,
+        "joint_count": 14,
+        "support": 0.02464788732394366,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.7777777777777778,
+        "lift": 7.362962962962963,
+        "confidence_ci95_low": 0.5478541568378739,
+        "confidence_ci95_high": 0.9099907189139831
+      }
+    }
+  },
+  {
+    "id": "GEN__MAR",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Aminoglucósidos -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 75,
+      "consequent_count": 204,
+      "joint_count": 45,
+      "support": 0.02051983584131327,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.6,
+      "lift": 6.45,
+      "confidence_ci95_low": 0.48688038796210664,
+      "confidence_ci95_high": 0.7033748435413321
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 18,
+      "consequent_count": 57,
+      "joint_count": 10,
+      "support": 0.017094017094017096,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.5555555555555556,
+      "lift": 5.701754385964913,
+      "confidence_ci95_low": 0.33716415642042774,
+      "confidence_ci95_high": 0.7544048187299437
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 6,
+      "largest_lab_antecedent_share": 0.10666666666666667,
+      "leave_one_lab_out_min_lift": 6.161639997050365,
+      "leave_one_lab_out_min_confidence": 0.5774647887323944
+    },
+    "passes_selection_2022": true,
+    "passes_lab_checks": true,
+    "eligible": true,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 37,
+      "consequent_count": 106,
+      "joint_count": 27,
+      "support": 0.023376623376623377,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.7297297297297297,
+      "lift": 7.951300356960735,
+      "confidence_ci95_low": 0.5702183167528573,
+      "confidence_ci95_high": 0.8460253848895091
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 19,
+        "consequent_count": 46,
+        "joint_count": 13,
+        "support": 0.022146507666098807,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.6842105263157895,
+        "lift": 8.73112128146453,
+        "confidence_ci95_low": 0.46010407675327475,
+        "confidence_ci95_high": 0.8463562091220773
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 18,
+        "consequent_count": 60,
+        "joint_count": 14,
+        "support": 0.02464788732394366,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.7777777777777778,
+        "lift": 7.362962962962963,
+        "confidence_ci95_low": 0.5478541568378739,
+        "confidence_ci95_high": 0.9099907189139831
+      }
+    }
+  },
+  {
+    "id": "EFX__FOV",
+    "configuration": "amplia",
+    "antecedent": [
+      "EFX"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 205,
+      "consequent_count": 270,
+      "joint_count": 124,
+      "support": 0.056543547651618786,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.6048780487804878,
+      "lift": 4.912953929539295,
+      "confidence_ci95_low": 0.5366169260387872,
+      "confidence_ci95_high": 0.6692808887093786
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 70,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.47368421052631576,
+      "lift": 3.958646616541353,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11707317073170732,
+      "leave_one_lab_out_min_lift": 4.72232741617357,
+      "leave_one_lab_out_min_confidence": 0.574585635359116
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 156,
+      "joint_count": 67,
+      "support": 0.05800865800865801,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.6320754716981132,
+      "lift": 4.679789550072569,
+      "confidence_ci95_low": 0.5371543636475911,
+      "confidence_ci95_high": 0.7177584925782841
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 74,
+        "joint_count": 27,
+        "support": 0.04599659284497445,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.5869565217391305,
+        "lift": 4.655992949471211,
+        "confidence_ci95_low": 0.44339497779846154,
+        "confidence_ci95_high": 0.7171139677518723
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 82,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.6666666666666666,
+        "lift": 4.617886178861788,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "FOV__EFX",
+    "configuration": "amplia",
+    "antecedent": [
+      "FOV"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 270,
+      "consequent_count": 205,
+      "joint_count": 124,
+      "support": 0.056543547651618786,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.45925925925925926,
+      "lift": 4.912953929539295,
+      "confidence_ci95_low": 0.400804907583838,
+      "confidence_ci95_high": 0.5188566363812591
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 70,
+      "consequent_count": 57,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.38571428571428573,
+      "lift": 3.9586466165413534,
+      "confidence_ci95_low": 0.280476913015389,
+      "confidence_ci95_high": 0.5028426441069578
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 18,
+      "largest_lab_antecedent_share": 0.08518518518518518,
+      "leave_one_lab_out_min_lift": 4.72232741617357,
+      "leave_one_lab_out_min_confidence": 0.42105263157894735
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 156,
+      "consequent_count": 106,
+      "joint_count": 67,
+      "support": 0.05800865800865801,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.42948717948717946,
+      "lift": 4.679789550072568,
+      "confidence_ci95_low": 0.35442497567077513,
+      "confidence_ci95_high": 0.5079386428652705
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 74,
+        "consequent_count": 46,
+        "joint_count": 27,
+        "support": 0.04599659284497445,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.36486486486486486,
+        "lift": 4.65599294947121,
+        "confidence_ci95_low": 0.2643856429286271,
+        "confidence_ci95_high": 0.47868186501634213
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 82,
+        "consequent_count": 60,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.4878048780487805,
+        "lift": 4.617886178861789,
+        "confidence_ci95_low": 0.38260895860619915,
+        "confidence_ci95_high": 0.5940922761179496
+      }
+    }
+  },
+  {
+    "id": "MAR__FOV",
+    "configuration": "amplia",
+    "antecedent": [
+      "MAR"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 204,
+      "consequent_count": 270,
+      "joint_count": 124,
+      "support": 0.056543547651618786,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.6078431372549019,
+      "lift": 4.937037037037037,
+      "confidence_ci95_low": 0.5394445112263195,
+      "confidence_ci95_high": 0.6722553115600429
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 70,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.47368421052631576,
+      "lift": 3.958646616541353,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11764705882352941,
+      "leave_one_lab_out_min_lift": 4.746669310071372,
+      "leave_one_lab_out_min_confidence": 0.5777777777777777
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 156,
+      "joint_count": 66,
+      "support": 0.05714285714285714,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.6226415094339622,
+      "lift": 4.6099419448476056,
+      "confidence_ci95_low": 0.5276023949623552,
+      "confidence_ci95_high": 0.709102400104529
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 74,
+        "joint_count": 26,
+        "support": 0.044293015332197615,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.5652173913043478,
+        "lift": 4.483548766157462,
+        "confidence_ci95_low": 0.4224743369429499,
+        "confidence_ci95_high": 0.6979073722198005
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 82,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.6666666666666666,
+        "lift": 4.617886178861788,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "FOV__MAR",
+    "configuration": "amplia",
+    "antecedent": [
+      "FOV"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 270,
+      "consequent_count": 204,
+      "joint_count": 124,
+      "support": 0.056543547651618786,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.45925925925925926,
+      "lift": 4.937037037037037,
+      "confidence_ci95_low": 0.400804907583838,
+      "confidence_ci95_high": 0.5188566363812591
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 70,
+      "consequent_count": 57,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.38571428571428573,
+      "lift": 3.9586466165413534,
+      "confidence_ci95_low": 0.280476913015389,
+      "confidence_ci95_high": 0.5028426441069578
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 18,
+      "largest_lab_antecedent_share": 0.08518518518518518,
+      "leave_one_lab_out_min_lift": 4.746669310071372,
+      "leave_one_lab_out_min_confidence": 0.42105263157894735
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 156,
+      "consequent_count": 106,
+      "joint_count": 66,
+      "support": 0.05714285714285714,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.4230769230769231,
+      "lift": 4.6099419448476056,
+      "confidence_ci95_low": 0.3483133146991538,
+      "confidence_ci95_high": 0.501537905521987
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 74,
+        "consequent_count": 46,
+        "joint_count": 26,
+        "support": 0.044293015332197615,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.35135135135135137,
+        "lift": 4.483548766157462,
+        "confidence_ci95_low": 0.252381884912968,
+        "confidence_ci95_high": 0.46499237382649816
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 82,
+        "consequent_count": 60,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.4878048780487805,
+        "lift": 4.617886178861789,
+        "confidence_ci95_low": 0.38260895860619915,
+        "confidence_ci95_high": 0.5940922761179496
+      }
+    }
+  },
+  {
+    "id": "EFX__CPD",
+    "configuration": "amplia",
+    "antecedent": [
+      "EFX"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 205,
+      "consequent_count": 286,
+      "joint_count": 123,
+      "support": 0.0560875512995896,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.6,
+      "lift": 4.600699300699301,
+      "confidence_ci95_low": 0.5316927231789674,
+      "confidence_ci95_high": 0.6646284490227721
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 73,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.47368421052631576,
+      "lift": 3.7959625090122566,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11707317073170732,
+      "leave_one_lab_out_min_lift": 4.443065693430657,
+      "leave_one_lab_out_min_confidence": 0.569060773480663
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 165,
+      "joint_count": 67,
+      "support": 0.05800865800865801,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.6320754716981132,
+      "lift": 4.4245283018867925,
+      "confidence_ci95_low": 0.5371543636475911,
+      "confidence_ci95_high": 0.7177584925782841
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 79,
+        "joint_count": 27,
+        "support": 0.04599659284497445,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.5869565217391305,
+        "lift": 4.361309851403413,
+        "confidence_ci95_low": 0.44339497779846154,
+        "confidence_ci95_high": 0.7171139677518723
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 86,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.6666666666666666,
+        "lift": 4.403100775193798,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "CPD__EFX",
+    "configuration": "amplia",
+    "antecedent": [
+      "CPD"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 286,
+      "consequent_count": 205,
+      "joint_count": 123,
+      "support": 0.0560875512995896,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.43006993006993005,
+      "lift": 4.600699300699301,
+      "confidence_ci95_low": 0.37399272728032623,
+      "confidence_ci95_high": 0.48800079095977694
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 73,
+      "consequent_count": 57,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.3698630136986301,
+      "lift": 3.7959625090122566,
+      "confidence_ci95_low": 0.26823149760636467,
+      "confidence_ci95_high": 0.48450614829992145
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 18,
+      "largest_lab_antecedent_share": 0.0944055944055944,
+      "leave_one_lab_out_min_lift": 4.443065693430657,
+      "leave_one_lab_out_min_confidence": 0.3916349809885932
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 165,
+      "consequent_count": 106,
+      "joint_count": 67,
+      "support": 0.05800865800865801,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.40606060606060607,
+      "lift": 4.4245283018867925,
+      "confidence_ci95_low": 0.3340914995163522,
+      "confidence_ci95_high": 0.4823043062500425
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 79,
+        "consequent_count": 46,
+        "joint_count": 27,
+        "support": 0.04599659284497445,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.34177215189873417,
+        "lift": 4.361309851403412,
+        "confidence_ci95_low": 0.24670973219023554,
+        "confidence_ci95_high": 0.4515090056749299
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 86,
+        "consequent_count": 60,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.46511627906976744,
+        "lift": 4.403100775193798,
+        "confidence_ci95_low": 0.3634587154004887,
+        "confidence_ci95_high": 0.5697569727822375
+      }
+    }
+  },
+  {
+    "id": "MAR__CPD",
+    "configuration": "amplia",
+    "antecedent": [
+      "MAR"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 204,
+      "consequent_count": 286,
+      "joint_count": 123,
+      "support": 0.0560875512995896,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.6029411764705882,
+      "lift": 4.623251748251748,
+      "confidence_ci95_low": 0.5344921656369235,
+      "confidence_ci95_high": 0.667584937931877
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 73,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.47368421052631576,
+      "lift": 3.7959625090122566,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11764705882352941,
+      "leave_one_lab_out_min_lift": 4.465968093912258,
+      "leave_one_lab_out_min_confidence": 0.5722222222222222
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 165,
+      "joint_count": 66,
+      "support": 0.05714285714285714,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.6226415094339622,
+      "lift": 4.3584905660377355,
+      "confidence_ci95_low": 0.5276023949623552,
+      "confidence_ci95_high": 0.709102400104529
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 79,
+        "joint_count": 26,
+        "support": 0.044293015332197615,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.5652173913043478,
+        "lift": 4.199779856906989,
+        "confidence_ci95_low": 0.4224743369429499,
+        "confidence_ci95_high": 0.6979073722198005
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 86,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.6666666666666666,
+        "lift": 4.403100775193798,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "CPD__MAR",
+    "configuration": "amplia",
+    "antecedent": [
+      "CPD"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 286,
+      "consequent_count": 204,
+      "joint_count": 123,
+      "support": 0.0560875512995896,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.43006993006993005,
+      "lift": 4.623251748251748,
+      "confidence_ci95_low": 0.37399272728032623,
+      "confidence_ci95_high": 0.48800079095977694
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 73,
+      "consequent_count": 57,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.3698630136986301,
+      "lift": 3.7959625090122566,
+      "confidence_ci95_low": 0.26823149760636467,
+      "confidence_ci95_high": 0.48450614829992145
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 18,
+      "largest_lab_antecedent_share": 0.0944055944055944,
+      "leave_one_lab_out_min_lift": 4.465968093912259,
+      "leave_one_lab_out_min_confidence": 0.3916349809885932
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 165,
+      "consequent_count": 106,
+      "joint_count": 66,
+      "support": 0.05714285714285714,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.4,
+      "lift": 4.358490566037736,
+      "confidence_ci95_low": 0.3283453206340665,
+      "confidence_ci95_high": 0.47620505324628915
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 79,
+        "consequent_count": 46,
+        "joint_count": 26,
+        "support": 0.044293015332197615,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.3291139240506329,
+        "lift": 4.199779856906989,
+        "confidence_ci95_low": 0.23554200381797014,
+        "confidence_ci95_high": 0.43853423307640843
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 86,
+        "consequent_count": 60,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.46511627906976744,
+        "lift": 4.403100775193798,
+        "confidence_ci95_low": 0.3634587154004887,
+        "confidence_ci95_high": 0.5697569727822375
+      }
+    }
+  },
+  {
+    "id": "GEN-EFX__FOV",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "EFX"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 270,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.7333333333333333,
+      "lift": 5.956296296296296,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 70,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.6,
+      "lift": 5.014285714285714,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.574175824175825,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 26,
+      "consequent_count": 156,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.8846153846153846,
+      "lift": 6.549556213017752,
+      "confidence_ci95_low": 0.7102409678828635,
+      "confidence_ci95_high": 0.9599675537638938
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 12,
+        "consequent_count": 74,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.8333333333333334,
+        "lift": 6.610360360360361,
+        "confidence_ci95_low": 0.5519691377470266,
+        "confidence_ci95_high": 0.9530348578161463
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 82,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.9285714285714286,
+        "lift": 6.43205574912892,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-FOV__EFX",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "FOV"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 205,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.7857142857142857,
+      "lift": 8.405226480836237,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.880714285714285,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-MAR__FOV",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "MAR"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 270,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.7333333333333333,
+      "lift": 5.956296296296296,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 70,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.6,
+      "lift": 5.014285714285714,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.574175824175825,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 27,
+      "consequent_count": 156,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.8518518518518519,
+      "lift": 6.306980056980057,
+      "confidence_ci95_low": 0.6752131457218702,
+      "confidence_ci95_high": 0.9408407222375568
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 13,
+        "consequent_count": 74,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.7692307692307693,
+        "lift": 6.101871101871103,
+        "confidence_ci95_low": 0.49743624053272495,
+        "confidence_ci95_high": 0.9182047128150143
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 82,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.9285714285714286,
+        "lift": 6.43205574912892,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-FOV__MAR",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "FOV"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 204,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.7857142857142857,
+      "lift": 8.446428571428571,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.920315865039483,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-EFX__CPD",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "EFX"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 286,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.7333333333333333,
+      "lift": 5.623076923076923,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 73,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.6,
+      "lift": 4.808219178082192,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.289363920750782,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 26,
+      "consequent_count": 165,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.8846153846153846,
+      "lift": 6.1923076923076925,
+      "confidence_ci95_low": 0.7102409678828635,
+      "confidence_ci95_high": 0.9599675537638938
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 12,
+        "consequent_count": 79,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.8333333333333334,
+        "lift": 6.19198312236287,
+        "confidence_ci95_low": 0.5519691377470266,
+        "confidence_ci95_high": 0.9530348578161463
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 86,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.9285714285714286,
+        "lift": 6.132890365448506,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-CPD__EFX",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "CPD"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 205,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.7857142857142857,
+      "lift": 8.405226480836237,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.880714285714285,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-MAR__CPD",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "MAR"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 286,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.7333333333333333,
+      "lift": 5.623076923076923,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 73,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.6,
+      "lift": 4.808219178082192,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.289363920750782,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 27,
+      "consequent_count": 165,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.8518518518518519,
+      "lift": 5.962962962962964,
+      "confidence_ci95_low": 0.6752131457218702,
+      "confidence_ci95_high": 0.9408407222375568
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 13,
+        "consequent_count": 79,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.7692307692307693,
+        "lift": 5.715676728334957,
+        "confidence_ci95_low": 0.49743624053272495,
+        "confidence_ci95_high": 0.9182047128150143
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 86,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.9285714285714286,
+        "lift": 6.132890365448506,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-CPD__MAR",
+    "configuration": "amplia",
+    "antecedent": [
+      "GEN",
+      "CPD"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 204,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.7857142857142857,
+      "lift": 8.446428571428571,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.920315865039483,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN__EFX",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Aminoglucósidos -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 75,
+      "consequent_count": 205,
+      "joint_count": 45,
+      "support": 0.02051983584131327,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.6,
+      "lift": 6.418536585365853,
+      "confidence_ci95_low": 0.48688038796210664,
+      "confidence_ci95_high": 0.7033748435413321
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 18,
+      "consequent_count": 57,
+      "joint_count": 10,
+      "support": 0.017094017094017096,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.5555555555555556,
+      "lift": 5.701754385964913,
+      "confidence_ci95_low": 0.33716415642042774,
+      "confidence_ci95_high": 0.7544048187299437
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 6,
+      "largest_lab_antecedent_share": 0.10666666666666667,
+      "leave_one_lab_out_min_lift": 6.129548122065728,
+      "leave_one_lab_out_min_confidence": 0.5774647887323944
+    },
+    "passes_selection_2022": true,
+    "passes_lab_checks": true,
+    "eligible": true,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 37,
+      "consequent_count": 106,
+      "joint_count": 26,
+      "support": 0.022510822510822513,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.7027027027027027,
+      "lift": 7.656807751147374,
+      "confidence_ci95_low": 0.5421686408886435,
+      "confidence_ci95_high": 0.8251052135016799
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 19,
+        "consequent_count": 46,
+        "joint_count": 12,
+        "support": 0.020442930153321975,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.631578947368421,
+        "lift": 8.05949656750572,
+        "confidence_ci95_low": 0.41039533164803066,
+        "confidence_ci95_high": 0.8085048725486492
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 18,
+        "consequent_count": 60,
+        "joint_count": 14,
+        "support": 0.02464788732394366,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.7777777777777778,
+        "lift": 7.362962962962963,
+        "confidence_ci95_low": 0.5478541568378739,
+        "confidence_ci95_high": 0.9099907189139831
+      }
+    }
+  },
+  {
+    "id": "GEN__MAR",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Aminoglucósidos -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 75,
+      "consequent_count": 204,
+      "joint_count": 45,
+      "support": 0.02051983584131327,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.6,
+      "lift": 6.45,
+      "confidence_ci95_low": 0.48688038796210664,
+      "confidence_ci95_high": 0.7033748435413321
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 18,
+      "consequent_count": 57,
+      "joint_count": 10,
+      "support": 0.017094017094017096,
+      "baseline": 0.09743589743589744,
+      "confidence": 0.5555555555555556,
+      "lift": 5.701754385964913,
+      "confidence_ci95_low": 0.33716415642042774,
+      "confidence_ci95_high": 0.7544048187299437
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 6,
+      "largest_lab_antecedent_share": 0.10666666666666667,
+      "leave_one_lab_out_min_lift": 6.161639997050365,
+      "leave_one_lab_out_min_confidence": 0.5774647887323944
+    },
+    "passes_selection_2022": true,
+    "passes_lab_checks": true,
+    "eligible": true,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 37,
+      "consequent_count": 106,
+      "joint_count": 27,
+      "support": 0.023376623376623377,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.7297297297297297,
+      "lift": 7.951300356960735,
+      "confidence_ci95_low": 0.5702183167528573,
+      "confidence_ci95_high": 0.8460253848895091
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 19,
+        "consequent_count": 46,
+        "joint_count": 13,
+        "support": 0.022146507666098807,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.6842105263157895,
+        "lift": 8.73112128146453,
+        "confidence_ci95_low": 0.46010407675327475,
+        "confidence_ci95_high": 0.8463562091220773
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 18,
+        "consequent_count": 60,
+        "joint_count": 14,
+        "support": 0.02464788732394366,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.7777777777777778,
+        "lift": 7.362962962962963,
+        "confidence_ci95_low": 0.5478541568378739,
+        "confidence_ci95_high": 0.9099907189139831
+      }
+    }
+  },
+  {
+    "id": "EFX__FOV",
+    "configuration": "conservadora",
+    "antecedent": [
+      "EFX"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 205,
+      "consequent_count": 270,
+      "joint_count": 124,
+      "support": 0.056543547651618786,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.6048780487804878,
+      "lift": 4.912953929539295,
+      "confidence_ci95_low": 0.5366169260387872,
+      "confidence_ci95_high": 0.6692808887093786
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 70,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.47368421052631576,
+      "lift": 3.958646616541353,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11707317073170732,
+      "leave_one_lab_out_min_lift": 4.72232741617357,
+      "leave_one_lab_out_min_confidence": 0.574585635359116
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 156,
+      "joint_count": 67,
+      "support": 0.05800865800865801,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.6320754716981132,
+      "lift": 4.679789550072569,
+      "confidence_ci95_low": 0.5371543636475911,
+      "confidence_ci95_high": 0.7177584925782841
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 74,
+        "joint_count": 27,
+        "support": 0.04599659284497445,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.5869565217391305,
+        "lift": 4.655992949471211,
+        "confidence_ci95_low": 0.44339497779846154,
+        "confidence_ci95_high": 0.7171139677518723
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 82,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.6666666666666666,
+        "lift": 4.617886178861788,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "MAR__FOV",
+    "configuration": "conservadora",
+    "antecedent": [
+      "MAR"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 204,
+      "consequent_count": 270,
+      "joint_count": 124,
+      "support": 0.056543547651618786,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.6078431372549019,
+      "lift": 4.937037037037037,
+      "confidence_ci95_low": 0.5394445112263195,
+      "confidence_ci95_high": 0.6722553115600429
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 70,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.47368421052631576,
+      "lift": 3.958646616541353,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11764705882352941,
+      "leave_one_lab_out_min_lift": 4.746669310071372,
+      "leave_one_lab_out_min_confidence": 0.5777777777777777
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 156,
+      "joint_count": 66,
+      "support": 0.05714285714285714,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.6226415094339622,
+      "lift": 4.6099419448476056,
+      "confidence_ci95_low": 0.5276023949623552,
+      "confidence_ci95_high": 0.709102400104529
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 74,
+        "joint_count": 26,
+        "support": 0.044293015332197615,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.5652173913043478,
+        "lift": 4.483548766157462,
+        "confidence_ci95_low": 0.4224743369429499,
+        "confidence_ci95_high": 0.6979073722198005
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 82,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.6666666666666666,
+        "lift": 4.617886178861788,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "EFX__CPD",
+    "configuration": "conservadora",
+    "antecedent": [
+      "EFX"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 205,
+      "consequent_count": 286,
+      "joint_count": 123,
+      "support": 0.0560875512995896,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.6,
+      "lift": 4.600699300699301,
+      "confidence_ci95_low": 0.5316927231789674,
+      "confidence_ci95_high": 0.6646284490227721
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 73,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.47368421052631576,
+      "lift": 3.7959625090122566,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11707317073170732,
+      "leave_one_lab_out_min_lift": 4.443065693430657,
+      "leave_one_lab_out_min_confidence": 0.569060773480663
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 165,
+      "joint_count": 67,
+      "support": 0.05800865800865801,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.6320754716981132,
+      "lift": 4.4245283018867925,
+      "confidence_ci95_low": 0.5371543636475911,
+      "confidence_ci95_high": 0.7177584925782841
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 79,
+        "joint_count": 27,
+        "support": 0.04599659284497445,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.5869565217391305,
+        "lift": 4.361309851403413,
+        "confidence_ci95_low": 0.44339497779846154,
+        "confidence_ci95_high": 0.7171139677518723
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 86,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.6666666666666666,
+        "lift": 4.403100775193798,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "MAR__CPD",
+    "configuration": "conservadora",
+    "antecedent": [
+      "MAR"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 204,
+      "consequent_count": 286,
+      "joint_count": 123,
+      "support": 0.0560875512995896,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.6029411764705882,
+      "lift": 4.623251748251748,
+      "confidence_ci95_low": 0.5344921656369235,
+      "confidence_ci95_high": 0.667584937931877
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 57,
+      "consequent_count": 73,
+      "joint_count": 27,
+      "support": 0.046153846153846156,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.47368421052631576,
+      "lift": 3.7959625090122566,
+      "confidence_ci95_low": 0.3498716798112528,
+      "confidence_ci95_high": 0.6008198378125881
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 17,
+      "largest_lab_antecedent_share": 0.11764705882352941,
+      "leave_one_lab_out_min_lift": 4.465968093912258,
+      "leave_one_lab_out_min_confidence": 0.5722222222222222
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": true,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 106,
+      "consequent_count": 165,
+      "joint_count": 66,
+      "support": 0.05714285714285714,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.6226415094339622,
+      "lift": 4.3584905660377355,
+      "confidence_ci95_low": 0.5276023949623552,
+      "confidence_ci95_high": 0.709102400104529
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 46,
+        "consequent_count": 79,
+        "joint_count": 26,
+        "support": 0.044293015332197615,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.5652173913043478,
+        "lift": 4.199779856906989,
+        "confidence_ci95_low": 0.4224743369429499,
+        "confidence_ci95_high": 0.6979073722198005
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 60,
+        "consequent_count": 86,
+        "joint_count": 40,
+        "support": 0.07042253521126761,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.6666666666666666,
+        "lift": 4.403100775193798,
+        "confidence_ci95_low": 0.5405686645211968,
+        "confidence_ci95_high": 0.7727073847647731
+      }
+    }
+  },
+  {
+    "id": "GEN-EFX__FOV",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "EFX"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 270,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.7333333333333333,
+      "lift": 5.956296296296296,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 70,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.6,
+      "lift": 5.014285714285714,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.574175824175825,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 26,
+      "consequent_count": 156,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.8846153846153846,
+      "lift": 6.549556213017752,
+      "confidence_ci95_low": 0.7102409678828635,
+      "confidence_ci95_high": 0.9599675537638938
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 12,
+        "consequent_count": 74,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.8333333333333334,
+        "lift": 6.610360360360361,
+        "confidence_ci95_low": 0.5519691377470266,
+        "confidence_ci95_high": 0.9530348578161463
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 82,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.9285714285714286,
+        "lift": 6.43205574912892,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-FOV__EFX",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "FOV"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 205,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.7857142857142857,
+      "lift": 8.405226480836237,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.880714285714285,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-MAR__FOV",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "MAR"
+    ],
+    "consequent": "FOV",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 270,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.12311901504787962,
+      "confidence": 0.7333333333333333,
+      "lift": 5.956296296296296,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 70,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.11965811965811966,
+      "confidence": 0.6,
+      "lift": 5.014285714285714,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.574175824175825,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 27,
+      "consequent_count": 156,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.13506493506493505,
+      "confidence": 0.8518518518518519,
+      "lift": 6.306980056980057,
+      "confidence_ci95_low": 0.6752131457218702,
+      "confidence_ci95_high": 0.9408407222375568
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 13,
+        "consequent_count": 74,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.1260647359454855,
+        "confidence": 0.7692307692307693,
+        "lift": 6.101871101871103,
+        "confidence_ci95_low": 0.49743624053272495,
+        "confidence_ci95_high": 0.9182047128150143
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 82,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1443661971830986,
+        "confidence": 0.9285714285714286,
+        "lift": 6.43205574912892,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-FOV__MAR",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "FOV"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 204,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.7857142857142857,
+      "lift": 8.446428571428571,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.920315865039483,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-EFX__CPD",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "EFX"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 286,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.7333333333333333,
+      "lift": 5.623076923076923,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 73,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.6,
+      "lift": 4.808219178082192,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.289363920750782,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 26,
+      "consequent_count": 165,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.8846153846153846,
+      "lift": 6.1923076923076925,
+      "confidence_ci95_low": 0.7102409678828635,
+      "confidence_ci95_high": 0.9599675537638938
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 12,
+        "consequent_count": 79,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.8333333333333334,
+        "lift": 6.19198312236287,
+        "confidence_ci95_low": 0.5519691377470266,
+        "confidence_ci95_high": 0.9530348578161463
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 86,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.9285714285714286,
+        "lift": 6.132890365448506,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-CPD__EFX",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "CPD"
+    ],
+    "consequent": "EFX",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 205,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09347925216598267,
+      "confidence": 0.7857142857142857,
+      "lift": 8.405226480836237,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.880714285714285,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-MAR__CPD",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "MAR"
+    ],
+    "consequent": "CPD",
+    "family_direction": "Aminoglucósidos + Fluoroquinolonas -> Cefalosporinas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 45,
+      "consequent_count": 286,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.13041495668034656,
+      "confidence": 0.7333333333333333,
+      "lift": 5.623076923076923,
+      "confidence_ci95_low": 0.5896116224686505,
+      "confidence_ci95_high": 0.8403509647893348
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 10,
+      "consequent_count": 73,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.12478632478632479,
+      "confidence": 0.6,
+      "lift": 4.808219178082192,
+      "confidence_ci95_low": 0.31267376973365824,
+      "confidence_ci95_high": 0.8318196702937638
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 2,
+      "largest_lab_antecedent_share": 0.13333333333333333,
+      "leave_one_lab_out_min_lift": 5.289363920750782,
+      "leave_one_lab_out_min_confidence": 0.7073170731707317
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 27,
+      "consequent_count": 165,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.14285714285714285,
+      "confidence": 0.8518518518518519,
+      "lift": 5.962962962962964,
+      "confidence_ci95_low": 0.6752131457218702,
+      "confidence_ci95_high": 0.9408407222375568
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 13,
+        "consequent_count": 79,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.13458262350936967,
+        "confidence": 0.7692307692307693,
+        "lift": 5.715676728334957,
+        "confidence_ci95_low": 0.49743624053272495,
+        "confidence_ci95_high": 0.9182047128150143
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 86,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.15140845070422534,
+        "confidence": 0.9285714285714286,
+        "lift": 6.132890365448506,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  },
+  {
+    "id": "GEN-CPD__MAR",
+    "configuration": "conservadora",
+    "antecedent": [
+      "GEN",
+      "CPD"
+    ],
+    "consequent": "MAR",
+    "family_direction": "Aminoglucósidos + Cefalosporinas -> Fluoroquinolonas",
+    "discovery": {
+      "n": 2193,
+      "antecedent_count": 42,
+      "consequent_count": 204,
+      "joint_count": 33,
+      "support": 0.015047879616963064,
+      "baseline": 0.09302325581395349,
+      "confidence": 0.7857142857142857,
+      "lift": 8.446428571428571,
+      "confidence_ci95_low": 0.6406015468367708,
+      "confidence_ci95_high": 0.8829420012399697
+    },
+    "selection": {
+      "n": 585,
+      "antecedent_count": 6,
+      "consequent_count": 57,
+      "joint_count": 6,
+      "support": 0.010256410256410256,
+      "baseline": 0.09743589743589744,
+      "confidence": 1.0,
+      "lift": 10.263157894736842,
+      "confidence_ci95_low": 0.6096657120978346,
+      "confidence_ci95_high": 1.0
+    },
+    "lab_audit": {
+      "discovery_labs_total": 22,
+      "labs_with_at_least_5_antecedents": 1,
+      "largest_lab_antecedent_share": 0.14285714285714285,
+      "leave_one_lab_out_min_lift": 7.920315865039483,
+      "leave_one_lab_out_min_confidence": 0.7631578947368421
+    },
+    "passes_selection_2022": false,
+    "passes_lab_checks": false,
+    "eligible": false,
+    "confirmation": {
+      "n": 1155,
+      "antecedent_count": 25,
+      "consequent_count": 106,
+      "joint_count": 23,
+      "support": 0.019913419913419914,
+      "baseline": 0.09177489177489177,
+      "confidence": 0.92,
+      "lift": 10.024528301886793,
+      "confidence_ci95_low": 0.7503389104960468,
+      "confidence_ci95_high": 0.9777795987151524
+    },
+    "confirmation_by_year": {
+      "2023": {
+        "n": 587,
+        "antecedent_count": 11,
+        "consequent_count": 46,
+        "joint_count": 10,
+        "support": 0.017035775127768313,
+        "baseline": 0.07836456558773425,
+        "confidence": 0.9090909090909091,
+        "lift": 11.60079051383399,
+        "confidence_ci95_low": 0.6226415635484043,
+        "confidence_ci95_high": 0.9837678271141151
+      },
+      "2024": {
+        "n": 568,
+        "antecedent_count": 14,
+        "consequent_count": 60,
+        "joint_count": 13,
+        "support": 0.022887323943661973,
+        "baseline": 0.1056338028169014,
+        "confidence": 0.9285714285714286,
+        "lift": 8.790476190476191,
+        "confidence_ci95_low": 0.6853129557584889,
+        "confidence_ci95_high": 0.9872777847521093
+      }
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "version": 3,
+  "objective": "Ajustar hiperparámetros y corte de clasificación para mejorar F1 macro, conservando las dos clases de crecimiento.",
+  "created_before_tuning": true,
+  "created_after_v1_v2_2024": true,
+  "training": {"previous": 1992, "start": 2002, "end": 2017, "n": 314},
+  "target_threshold_annual_growth": 0.01,
+  "score_thresholds": [0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7],
+  "outer_validation": {"n_splits": 5, "shuffle": true, "random_state": 2033},
+  "inner_validation": {"n_splits": 4, "shuffle": true, "random_state": 2034},
+  "final_selection_validation": {"n_splits": 5, "shuffle": true, "random_state": 2034},
+  "selection": ["Mayor media de F1 macro", "Mayor media de exactitud", "Mayor media de exactitud balanceada", "Menos entradas", "Corte más cercano a 0.5", "Orden registrado"],
+  "candidate_grid": {
+    "reference_v2": "Bosque de 300 árboles, profundidad 5, hoja 8, balanced_subsample; 4 entradas",
+    "forests": {"features": 4, "n_estimators": 300, "max_depth": [3, 8], "min_samples_leaf": [5, 15], "class_weight": [null, "balanced_subsample"]},
+    "forest_six_features": "Mismos parámetros de referencia v2 con 6 entradas",
+    "logistic": {"features": 4, "C": [0.1, 1], "class_weight": [null, "balanced"]},
+    "gradient_boosting": {"features": 4, "n_estimators": 150, "max_depth": [1, 2], "learning_rate": [0.05, 0.1], "min_samples_leaf": 10},
+    "gradient_six_features": "150 árboles, profundidad 2, tasa 0.05, hoja 10; 6 entradas"
+  },
+  "candidate_count": 19,
+  "configuration_threshold_combinations": 171,
+  "seed": 2025,
+  "evaluation": {
+    "start": 2017, "end": 2024, "core_n": 314,
+    "additional_codes": [9101, 9112],
+    "previously_observed": true,
+    "selection_uses_2024_labels": false,
+    "policy": "Cerrar configuración y corte antes de reevaluar 2024; no probar otros ajustes después de observar esta reevaluación.",
+    "promotion_rule": "Mostrar la versión afinada como opción experimental solo si supera v2 en F1 macro y aciertos en las mismas 314 comunas. Esta regla de integración no hace independiente la reevaluación de 2024."
+  },
+  "forecast": {"fit_n": 630, "training_through": 2024, "period": [2024, 2031], "verified": false},
+  "limitations": [
+    "La validación anidada separa el ajuste de parámetros de su evaluación dentro de este experimento; estos datos ya participaron en versiones previas.",
+    "Particiones entre comunas de una sola época; correlación geográfica y cambio temporal limitan la generalización.",
+    "2024 ya fue observado: reevaluación exploratoria, sin prueba temporal final nueva.",
+    "El corte del score se ajusta; la definición de crecimiento alto permanece en 1% anual.",
+    "Los scores no están calibrados y no equivalen a certeza individual.",
+    "Mismas limitaciones territoriales y de residentes identificados de v2.",
+    "El escenario 2031 no está verificado."
+  ],
+  "method_sources": [
+    "https://scikit-learn.org/1.7/modules/classification_threshold.html",
+    "https://scikit-learn.org/1.7/modules/cross_validation.html"
+  ]
+}

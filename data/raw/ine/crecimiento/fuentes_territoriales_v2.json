@@ -1,0 +1,32 @@
+{
+  "retrieved_at": "2026-10-05T11:02:00.665961+00:00",
+  "files": [
+    {
+      "file": "actualizacion_dpa_ine_2018.html",
+      "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2019/09/16/ine-actualiza-informaci%C3%B3n-de-censo-2017-a-la-nueva-divisi%C3%B3n-pol%C3%ADtica-administrativa-incorporando-la-nueva-regi%C3%B3n-de-%C3%B1uble",
+      "bytes": 97736,
+      "sha256": "d9da752897df7c96a962dd27da6e9e53a4ff8bfde6cf88d9ba71b09bbd901749",
+      "scope": "Evidencia de procedencia o límites; no aporta etiquetas adicionales al modelo."
+    },
+    {
+      "file": "diccionario_2002.html",
+      "url": "https://redatam-ine.ine.cl/redbin/RpWebStats.exe/Dictionary?BASE=CENSO_2002&ITEM=DICALL&lang=esp",
+      "bytes": 32141,
+      "sha256": "d2d6f9b78462ce09cdc171914e8ea4d79696d9647accfcc3140e7a7a62f3e64d",
+      "scope": "Evidencia de procedencia o límites; no aporta etiquetas adicionales al modelo."
+    },
+    {
+      "file": "antecedentes_limites_mma_2015.pdf",
+      "url": "https://airechile.mma.gob.cl/download/DO-PDA-Temuco-y-Padre-Las-%20Casas.pdf",
+      "bytes": 1862993,
+      "sha256": "12e016e2eb1d03f64bd5b2b1304ec1d1396c5851883719d141c42fdb8c998fcf",
+      "scope": "Evidencia de procedencia o límites; no aporta etiquetas adicionales al modelo."
+    }
+  ],
+  "legal_references": [
+    "https://www.bcn.cl/leychile/Navegar?idNorma=30758",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1038291"
+  ],
+  "census_manifest": "fuentes.json",
+  "note": "Las cifras de 2012 del documento MMA no son datos de entrenamiento, respuestas o validación."
+}

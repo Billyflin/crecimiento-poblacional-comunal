@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "created_before_v2_training": true,
+  "created_after_v1_test": true,
+  "objective": "Clasificar crecimiento intercensal incorporando la dinámica conocida antes del intervalo.",
+  "target": {
+    "threshold": 0.01,
+    "formula": "(P_final/P_inicial)**(1/(año_final-año_inicial))-1",
+    "positive_class": "Al menos 1% anual",
+    "negative_class": "Menor que 1% anual",
+    "threshold_origin": "Se conserva el umbral de v1; no se ajusta con 2024."
+  },
+  "features": [
+    "log_poblacion",
+    "proporcion_menores_15",
+    "proporcion_65_mas",
+    "crecimiento_previo",
+    "cambio_menores_15_anual",
+    "cambio_65_mas_anual"
+  ],
+  "feature_timing": "Todas las entradas se calculan con censos anteriores o iguales al inicio; cambios de proporciones se dividen por años del período anterior.",
+  "training": {
+    "previous": 1992,
+    "start": 2002,
+    "end": 2017,
+    "core_communes": "Las 314 comunas de v1; Temuco y Padre Las Casas se reservan como aplicaciones adicionales.",
+    "n": 314
+  },
+  "validation": {
+    "method": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 2025,
+    "scope": "Validación entre comunas del intervalo 2002–2017; no es validación entre futuros períodos."
+  },
+  "selection": [
+    "Mayor media de F1 macro por pliegue",
+    "Mayor media de exactitud balanceada",
+    "Menos entradas",
+    "Menor complejidad",
+    "Orden de inscripción"
+  ],
+  "evaluation": {
+    "previous": 2002,
+    "start": 2017,
+    "end": 2024,
+    "core_n": 314,
+    "additional": [
+      "Temuco",
+      "Padre Las Casas"
+    ],
+    "previously_observed": true,
+    "interpretation": "Reevaluación temporal exploratoria. 2024 ya se utilizó en v1; no es una prueba final nueva e independiente."
+  },
+  "forecast": {
+    "previous": 2017,
+    "start": 2024,
+    "end": 2031,
+    "fit": "Reentrenar la configuración elegida con 314 ejemplos de 2002–2017 y 316 de 2017–2024. Mantener modelo histórico separado.",
+    "verified": false
+  },
+  "probability_threshold": 0.5,
+  "seed": 2025,
+  "baselines": [
+    "Clase mayoritaria del ajuste",
+    "Continuidad de la clase de crecimiento anterior",
+    "Bosque v1 sobre las mismas 314 comunas"
+  ],
+  "geography": {
+    "recover": [
+      "Temuco",
+      "Padre Las Casas"
+    ],
+    "padre_1992": "No usar como entrada anterior: no se acredita actualización del traspaso de Freire de 2012.",
+    "padre_2002": "Usar publicación REDATAM actualizada a nueva DPA según comunicado INE del 12-09-2018; documentar límite de Ley 20.578, sin sumar manualmente San Ramón.",
+    "caution": "Recuperación preliminar por identidad, actualización publicada y contraste 2017; auditoría cartográfica exhaustiva pendiente."
+  },
+  "test_policy": "Congelar elección por CV antes de reevaluar 2024. No cambiar hiperparámetros, entradas o umbral por esa reevaluación. Reportar todos los candidatos de la lista.",
+  "limitations": [
+    "Solo un intervalo permite seleccionar un modelo con tendencia anterior; pocos ejemplos y épocas.",
+    "Las duraciones difieren; anualizar no elimina cambios de horizonte.",
+    "2024 fue observado en v1; sus métricas de v2 son exploratorias.",
+    "El escenario posterior a 2024 no está verificado.",
+    "Scores sin calibración; no se presentan como certeza.",
+    "Geografía parcialmente auditada; no inferir causas ni proyección oficial."
+  ],
+  "alternatives": [
+    {
+      "id": "arbol_d3",
+      "algorithm": "DecisionTreeClassifier",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo",
+        "cambio_menores_15_anual",
+        "cambio_65_mas_anual"
+      ],
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 15,
+        "class_weight": "balanced",
+        "random_state": 2025
+      },
+      "complexity": 1
+    },
+    {
+      "id": "bosque_d5",
+      "algorithm": "RandomForestClassifier",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo",
+        "cambio_menores_15_anual",
+        "cambio_65_mas_anual"
+      ],
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "min_samples_leaf": 8,
+        "class_weight": "balanced_subsample",
+        "random_state": 2025,
+        "n_jobs": 2
+      },
+      "complexity": 3
+    },
+    {
+      "id": "logistica_c0.1",
+      "algorithm": "LogisticRegression",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo",
+        "cambio_menores_15_anual",
+        "cambio_65_mas_anual"
+      ],
+      "params": {
+        "C": 0.1,
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "random_state": 2025
+      },
+      "complexity": 2
+    },
+    {
+      "id": "logistica_c1",
+      "algorithm": "LogisticRegression",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo",
+        "cambio_menores_15_anual",
+        "cambio_65_mas_anual"
+      ],
+      "params": {
+        "C": 1,
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "random_state": 2025
+      },
+      "complexity": 2
+    },
+    {
+      "id": "logistica_c10",
+      "algorithm": "LogisticRegression",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo",
+        "cambio_menores_15_anual",
+        "cambio_65_mas_anual"
+      ],
+      "params": {
+        "C": 10,
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "random_state": 2025
+      },
+      "complexity": 2
+    },
+    {
+      "id": "arbol_tendencia",
+      "algorithm": "DecisionTreeClassifier",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo"
+      ],
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 15,
+        "class_weight": "balanced",
+        "random_state": 2025
+      },
+      "complexity": 1
+    },
+    {
+      "id": "logistica_tendencia",
+      "algorithm": "LogisticRegression",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo"
+      ],
+      "params": {
+        "C": 1,
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "random_state": 2025
+      },
+      "complexity": 2
+    },
+    {
+      "id": "bosque_sin_historia",
+      "algorithm": "RandomForestClassifier",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas"
+      ],
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "min_samples_leaf": 8,
+        "class_weight": "balanced_subsample",
+        "random_state": 2025,
+        "n_jobs": 2
+      },
+      "complexity": 3
+    },
+    {
+      "id": "bosque_tendencia",
+      "algorithm": "RandomForestClassifier",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo"
+      ],
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "min_samples_leaf": 8,
+        "class_weight": "balanced_subsample",
+        "random_state": 2025,
+        "n_jobs": 2
+      },
+      "complexity": 3
+    },
+    {
+      "id": "arbol_d2",
+      "algorithm": "DecisionTreeClassifier",
+      "features": [
+        "log_poblacion",
+        "proporcion_menores_15",
+        "proporcion_65_mas",
+        "crecimiento_previo",
+        "cambio_menores_15_anual",
+        "cambio_65_mas_anual"
+      ],
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 15,
+        "class_weight": "balanced",
+        "random_state": 2025
+      },
+      "complexity": 0
+    }
+  ]
+}

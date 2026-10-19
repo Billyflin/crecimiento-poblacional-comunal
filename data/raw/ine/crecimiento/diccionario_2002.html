@@ -1,0 +1,1150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Redatam Webserver Work Page</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, max-age=0, must-revalidate" />
+  <meta http-equiv="Expires" content="-1">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link type="image/x-icon" rel="shortcut icon" href="https://redatam-ine.ine.cl/images/favicon.ico" />
+
+  <script type="text/javascript" src="https://redatam-ine.ine.cl/common/js/jquery-current.min.js"></script>
+	<script type="text/javascript" src="https://redatam-ine.ine.cl/common/js/jquery.form.min.js"></script>
+  <script type="text/javascript" src="https://redatam-ine.ine.cl/common/js/jquery-ui-current.min.js"></script>
+
+	<script type="text/javascript" src="https://redatam-ine.ine.cl/common/js/select2.min.js"></script>
+
+	<script type="text/javascript" src="https://redatam-ine.ine.cl/js/red.work.output.js"></script>
+	<script type="text/javascript" src="https://redatam-ine.ine.cl/js/red.work.indicators.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="https://redatam-ine.ine.cl/common/css/themes/start/jquery-ui.min.css" />
+	<link type="text/css" rel="stylesheet" href="https://redatam-ine.ine.cl/common/css/w3/4/w3.css">
+	<link type="text/css" rel="stylesheet" href="https://redatam-ine.ine.cl/common/css/select2.min.css" />
+
+	<link type="text/css" rel="stylesheet" href="https://redatam-ine.ine.cl/css/red.work.input.css" />
+	<link type="text/css" rel="stylesheet" href="https://redatam-ine.ine.cl/css/red.output.css" />
+
+  
+
+</head>
+
+<body  >
+
+  <div id="title_dummy" >
+    Diccionario de la Base de Datos
+    
+  </div>
+
+  <div id="redWork" class="ui-panel ui-widget-content ui-corner-all" >
+      <div class="ui-widget-header ui-corner-top">
+        <span class="ui-panel-title" id="main_title">??</span>
+      </div>
+
+      <div id="redError">
+      </div>
+
+      <span id="redToolbar" class="ui-widget-header ui-corner-all">
+        <button id="btnRegresar">Regresar</button>
+      </span>
+
+      <div id="redTabs" class="tabs">
+        <ul class="tab-links">
+          <li><a href="#tabs-1">Tablas</a></li>
+          <li><a href="#tabs-2">Gráficos</a></li>
+          <li><a href="#tabs-3">Mapas</a></li>
+          <li><a href="#tabs-4">Programa Redatam</a></li>
+          <li><a href="#tabs-5">Diccionario</a></li>
+        </ul>
+        <div class="tab-content">
+        	<div id="tabs-1">
+        	  <div id="tab-output">
+        	  </div>
+        	</div>
+        	<div id="tabs-2">
+        	  <div id="tab-graphic" align="center">
+        	  </div>
+        	</div>
+        	<div id="tabs-3">
+        	  <div id="tab-map" align="center">
+        	  </div>
+        	</div>
+        	<div id="tabs-4">
+        	  <div id="tab-spc" align="left">
+        	  	<div></div>
+        	  </div>
+        	</div>
+        	<div id="tabs-5">
+        	  <div id="tab-dic" align="left">
+        	  	<div></div>
+        	  </div>
+        	</div>
+        </div>
+      </div>
+
+      <div id="redInput" class="w3-panel" >
+				<table class="RedOutput" >
+<tr>
+          <th>#</th>
+          <th>Entity/Variable Name</th>
+          <th>Rótulo</th>
+          <th>Alias</th>
+          <th>Grupo</th>
+          <th>Tipo</th>
+          <th>Min Range</th>
+          <th>Max Range</th>
+        </tr>
+        <tr>
+          <td colspan='8'>&nbsp;</td>
+        </tr>
+        <tr id="rowent">
+          <td>1</td>
+          <td>CENSO</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>1.1</td>
+          <td>CENSO</td>
+          <td>Identification code</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr id="rowent">
+          <td>2</td>
+          <td>REGION</td>
+          <td>División Regional</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2.1</td>
+          <td>IDREGION</td>
+          <td>Código Region</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2.2</td>
+          <td>Regiones</td>
+          <td>Nombre Región</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2.3</td>
+          <td>REDCODEN</td>
+          <td>División Regional</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        <tr id="rowent">
+          <td>3</td>
+          <td>PROVINCI</td>
+          <td>División Provincial</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3.1</td>
+          <td>IDPROVIN</td>
+          <td>Código Provincia</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3.2</td>
+          <td>Provincias</td>
+          <td>Nombre Provincia</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3.3</td>
+          <td>REDCODEN</td>
+          <td>División Provincial</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">999</td>
+        </tr>
+        <tr id="rowent">
+          <td>4</td>
+          <td>COMUNA</td>
+          <td>División Comunal</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4.1</td>
+          <td>IDCOMUNA</td>
+          <td>Código Comuna</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4.2</td>
+          <td>Comunas</td>
+          <td>Nombre Comuna</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>STRING</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4.3</td>
+          <td>REDCODEN</td>
+          <td>División Comunal</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99999</td>
+        </tr>
+        <tr id="rowent">
+          <td>5</td>
+          <td>VIVIENDA</td>
+          <td>Viviendas</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>5.1</td>
+          <td>AREA</td>
+          <td>Código de Area</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>5.2</td>
+          <td>TIPOVIV</td>
+          <td>Tipo de Vivienda</td>
+          <td>V1</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">10</td>
+        </tr>
+        <tr>
+          <td>5.3</td>
+          <td>CONDOCUP</td>
+          <td>Ocupación de la Vivienda</td>
+          <td>V2</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">3</td>
+        </tr>
+        <tr>
+          <td>5.4</td>
+          <td>TENENCIA</td>
+          <td>Condición de Tenencia</td>
+          <td>V3</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">5</td>
+        </tr>
+        <tr>
+          <td>5.5</td>
+          <td>PARED</td>
+          <td>Material de construcción, Paredes</td>
+          <td>V4A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">7</td>
+        </tr>
+        <tr>
+          <td>5.6</td>
+          <td>TECHO</td>
+          <td>Material de construcción, Techo</td>
+          <td>V4B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>5.7</td>
+          <td>PISO</td>
+          <td>Material de construcción, Piso</td>
+          <td>V4C</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>5.8</td>
+          <td>ALUMBRA</td>
+          <td>Alumbrado eléctrico</td>
+          <td>V5</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">4</td>
+        </tr>
+        <tr>
+          <td>5.9</td>
+          <td>AGUA</td>
+          <td>Origen del agua</td>
+          <td>V6</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">3</td>
+        </tr>
+        <tr>
+          <td>5.10</td>
+          <td>CANERIA</td>
+          <td>Agua cañería</td>
+          <td>V7</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">3</td>
+        </tr>
+        <tr>
+          <td>5.11</td>
+          <td>WC</td>
+          <td>Servicio higiénico</td>
+          <td>V8</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">6</td>
+        </tr>
+        <tr>
+          <td>5.12</td>
+          <td>TOTPIEZA</td>
+          <td>Total piezas</td>
+          <td>V10A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">99</td>
+        </tr>
+        <tr>
+          <td>5.13</td>
+          <td>TOTHOGAR</td>
+          <td>Hogares</td>
+          <td>V11</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">27</td>
+        </tr>
+        <tr>
+          <td>5.14</td>
+          <td>TOTDOR</td>
+          <td>Total de dormitorios</td>
+          <td>V10B_1</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.15</td>
+          <td>TOTLICOM</td>
+          <td>Total de living-comedor exclusivo</td>
+          <td>V10B_2</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.16</td>
+          <td>TOTLIV</td>
+          <td>Total de livings exclusivos</td>
+          <td>V10B_3</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.17</td>
+          <td>TOTCOM</td>
+          <td>Total de comedores exclusivos</td>
+          <td>V10B_4</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.18</td>
+          <td>TOTCOCIN</td>
+          <td>Total de cocinas exclusivas</td>
+          <td>V10B_5</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.19</td>
+          <td>TOTTRAB</td>
+          <td>Total piezas de trabajo remunerado</td>
+          <td>V10B_6</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.20</td>
+          <td>TOTEST</td>
+          <td>Total piezas de estudio</td>
+          <td>V10B_7</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.21</td>
+          <td>TOTOTRAS</td>
+          <td>Total otras piezas</td>
+          <td>V10B_8</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">90</td>
+        </tr>
+        <tr>
+          <td>5.22</td>
+          <td>DUCHAS</td>
+          <td>Ducha</td>
+          <td>V9</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">6</td>
+        </tr>
+        <tr id="rowent">
+          <td>6</td>
+          <td>HOGAR</td>
+          <td>Hogares</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>6.1</td>
+          <td>COMBUSTI</td>
+          <td>Combustible</td>
+          <td>H12</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">8</td>
+        </tr>
+        <tr>
+          <td>6.2</td>
+          <td>DORMITOR</td>
+          <td>Piezas</td>
+          <td>H13</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        <tr>
+          <td>6.3</td>
+          <td>DUCHA</td>
+          <td>Dispone de duchas</td>
+          <td>H14</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.4</td>
+          <td>TVBYN</td>
+          <td>TV BN</td>
+          <td>H15_1</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.5</td>
+          <td>TVCOLOR</td>
+          <td>TV Color</td>
+          <td>H15_2</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.6</td>
+          <td>VIDEO</td>
+          <td>Videograbador</td>
+          <td>H15_3</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.7</td>
+          <td>TVCABLE</td>
+          <td>Conexión TV Cable/Satélite</td>
+          <td>H15_4</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.8</td>
+          <td>EQMUSICA</td>
+          <td>Minicomponente</td>
+          <td>H15_5</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.9</td>
+          <td>LAVADORA</td>
+          <td>Lavadora</td>
+          <td>H15_6</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.10</td>
+          <td>SECACENT</td>
+          <td>Secadora o centrífuga</td>
+          <td>H15_7</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.11</td>
+          <td>REFRIG</td>
+          <td>Refrigerador</td>
+          <td>H15_8</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.12</td>
+          <td>CONGELA</td>
+          <td>Congelador</td>
+          <td>H15_9</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.13</td>
+          <td>MICROHON</td>
+          <td>Horno microonda</td>
+          <td>H15_10</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.14</td>
+          <td>LAVAVAJI</td>
+          <td>Lava-vajillas</td>
+          <td>H15_11</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.15</td>
+          <td>CALEFONT</td>
+          <td>Calefont</td>
+          <td>H15_12</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.16</td>
+          <td>CELULAR</td>
+          <td>Celular</td>
+          <td>H15_13</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.17</td>
+          <td>TELEFONO</td>
+          <td>Teléfono red fija</td>
+          <td>H15_14</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.18</td>
+          <td>PC</td>
+          <td>Computador</td>
+          <td>H15_15</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.19</td>
+          <td>INTERNET</td>
+          <td>Conexión a internet</td>
+          <td>H15_16</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.20</td>
+          <td>BICIPART</td>
+          <td>Bicicleta</td>
+          <td>H16_1</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.21</td>
+          <td>MOTOPART</td>
+          <td>Moto, motoneta, bicimoto</td>
+          <td>H16_2</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.22</td>
+          <td>FURGONP</td>
+          <td>Furgón</td>
+          <td>H16_3</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.23</td>
+          <td>AUTOPART</td>
+          <td>Automóvil</td>
+          <td>H16_4</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.24</td>
+          <td>CAMIPART</td>
+          <td>Camioneta</td>
+          <td>H16_5</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.25</td>
+          <td>LANCHAP</td>
+          <td>Lancha, velero, bote</td>
+          <td>H16_6</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>6.26</td>
+          <td>TOTHOM</td>
+          <td>Total Hombres</td>
+          <td>TH</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">9999</td>
+        </tr>
+        <tr>
+          <td>6.27</td>
+          <td>TOTMUJ</td>
+          <td>Total Mujeres</td>
+          <td>TM</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">999</td>
+        </tr>
+        <tr>
+          <td>6.28</td>
+          <td>TOTPOB</td>
+          <td>Total Personas</td>
+          <td>TP</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">9999</td>
+        </tr>
+        <tr>
+          <td>6.29</td>
+          <td>TIPOHOG</td>
+          <td>Tipo de Hogar</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">5</td>
+        </tr>
+        <tr id="rowent">
+          <td>7</td>
+          <td>PERSONA</td>
+          <td>Personas</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>7.1</td>
+          <td>PARENTES</td>
+          <td>Parentesco</td>
+          <td>P17</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">16</td>
+        </tr>
+        <tr>
+          <td>7.2</td>
+          <td>SEXO</td>
+          <td>Sexo</td>
+          <td>P18</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>7.3</td>
+          <td>EDAD</td>
+          <td>Edad</td>
+          <td>P19</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">999</td>
+        </tr>
+        <tr>
+          <td>7.4</td>
+          <td>CEGUERA</td>
+          <td>Ceguera</td>
+          <td>P20_1</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">1</td>
+        </tr>
+        <tr>
+          <td>7.5</td>
+          <td>SORDERA</td>
+          <td>Sordera</td>
+          <td>P20_2</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">1</td>
+        </tr>
+        <tr>
+          <td>7.6</td>
+          <td>MUDEZ</td>
+          <td>Mudez</td>
+          <td>P20_3</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">1</td>
+        </tr>
+        <tr>
+          <td>7.7</td>
+          <td>LISIADO</td>
+          <td>Lisiado/Parálisis</td>
+          <td>P20_4</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">1</td>
+        </tr>
+        <tr>
+          <td>7.8</td>
+          <td>DMENTAL</td>
+          <td>Deficiencia mental</td>
+          <td>P20_5</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">1</td>
+        </tr>
+        <tr>
+          <td>7.9</td>
+          <td>P20F</td>
+          <td>Ninguna de la anteriores</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.10</td>
+          <td>CULTURA</td>
+          <td>Pueblos originarios</td>
+          <td>P21</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.11</td>
+          <td>LUGNAC</td>
+          <td>Lugar de residencia de su madre</td>
+          <td>P22A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.12</td>
+          <td>NACIMIEN</td>
+          <td>Código de comuna o país de residencia</td>
+          <td>P22B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99999</td>
+        </tr>
+        <tr>
+          <td>7.13</td>
+          <td>LLEGADA</td>
+          <td>Año de llegada al país de su madre</td>
+          <td>P22C</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">9999</td>
+          <td align="right">9999</td>
+        </tr>
+        <tr>
+          <td>7.14</td>
+          <td>LUGVIV</td>
+          <td>Lugar de residencia habitual</td>
+          <td>P23A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.15</td>
+          <td>VIVEHAB</td>
+          <td>Código de comuna o país de residencia habitual</td>
+          <td>P23B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99999</td>
+        </tr>
+        <tr>
+          <td>7.16</td>
+          <td>LUGRES97</td>
+          <td>Lugar de residencia en Abril 1997</td>
+          <td>P24A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.17</td>
+          <td>VIVIA97</td>
+          <td>Código de comuna o país de residencia en Abril 1997</td>
+          <td>P24B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99999</td>
+        </tr>
+        <tr>
+          <td>7.18</td>
+          <td>LEE</td>
+          <td>Sabe leer o escribir</td>
+          <td>P25</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">2</td>
+        </tr>
+        <tr>
+          <td>7.19</td>
+          <td>TIPOER</td>
+          <td>Curso aprobado en la enseñanza formal</td>
+          <td>P26A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">15</td>
+        </tr>
+        <tr>
+          <td>7.20</td>
+          <td>CURSO</td>
+          <td>Último nivel aprobado</td>
+          <td>P26B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">8</td>
+        </tr>
+        <tr>
+          <td>7.21</td>
+          <td>ECIVIL</td>
+          <td>Estado civil</td>
+          <td>P27</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">6</td>
+        </tr>
+        <tr>
+          <td>7.22</td>
+          <td>RELIGION</td>
+          <td>Religión</td>
+          <td>P28</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.23</td>
+          <td>SLABORAL</td>
+          <td>Situación laboral</td>
+          <td>P29</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">10</td>
+        </tr>
+        <tr>
+          <td>7.24</td>
+          <td>TRABAJA</td>
+          <td>Ocupación de su trabajo</td>
+          <td>P30</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">5</td>
+        </tr>
+        <tr>
+          <td>7.25</td>
+          <td>P31</td>
+          <td>Descripción del tipo de trabajo</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        <tr>
+          <td>7.26</td>
+          <td>P32</td>
+          <td>Ocupación del establecimiento donde trabaja o trabajaba</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        <tr>
+          <td>7.27</td>
+          <td>LUGTRAES</td>
+          <td>Cual es la comuna de estudio o trabajo</td>
+          <td>P33A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">9</td>
+        </tr>
+        <tr>
+          <td>7.28</td>
+          <td>COMTRAES</td>
+          <td>Código de comuna de estudio o trabajo</td>
+          <td>P33B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99999</td>
+        </tr>
+        <tr>
+          <td>7.29</td>
+          <td>HIJOS</td>
+          <td>Cuantas hijas o hijos nacidos vivos ha tenido en total</td>
+          <td>P34</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        <tr>
+          <td>7.30</td>
+          <td>HIJOSVIV</td>
+          <td>Cuantos están vivos actualmente</td>
+          <td>P35</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">99</td>
+        </tr>
+        <tr>
+          <td>7.31</td>
+          <td>MESHIJO</td>
+          <td>En que mes nació su último hijo/a nacido vivo</td>
+          <td>P36A</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">12</td>
+        </tr>
+        <tr>
+          <td>7.32</td>
+          <td>ANOHIJO</td>
+          <td>En que año nació su último hijo/a nacido vivo</td>
+          <td>P36B</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">0</td>
+          <td align="right">9999</td>
+        </tr>
+        <tr>
+          <td>7.33</td>
+          <td>EDQUINQ</td>
+          <td>Edades Quinquenales</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>INTEGER</td>
+          <td align="right">1</td>
+          <td align="right">17</td>
+        </tr>
+        <tr>
+          <td colspan='8'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan='8'><b>Fuente: Censo 2002</b></td>
+        </tr>
+        <tr>
+          <td colspan='8'><b>Procesado con Redatam WebServer</b></td>
+        </tr>
+        <tr>
+          <td colspan='8'><b>2002. CELADE/CEPAL, Naciones Unidas</b></td>
+        </tr>
+</table>
+
+      </div>
+
+      <div id="redImage" align="center">
+        <img src=""/>
+      </div>
+  </div>
+
+  <div id="redStatusDialog" title="Redatam Webserver">
+    <div class="container" style="float:left; width:250px;">
+      <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-12">
+        	<img src="/common/images/ajax-loader.gif" />
+        </div>
+      	<div class="col-lg-10 col-md-6 col-sm-12">
+        	<p style="font-size: 0.8em">Procesando por Usted, intente hacer algo mientras espera...</p>
+        </div>
+      </div>
+		</div>
+  </div>
+
+</body>
+
+</html>

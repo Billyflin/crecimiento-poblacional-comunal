@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "created_before_training": true,
+  "objective": "Clasificar el crecimiento poblacional intercensal de territorios comunales comparables usando datos del censo inicial.",
+  "unit": "Territorio comunal comparable por intervalo intercensal; los habitantes no son ejemplos independientes del modelo.",
+  "population_definition": "Residentes habituales con comuna identificada. No usar proyecciones como resultados observados.",
+  "target": {
+    "formula": "(poblacion_final / poblacion_inicial) ** (1 / (anio_final - anio_inicial)) - 1",
+    "positive_class": "Crecimiento de al menos 1% anual",
+    "negative_class": "Crecimiento menor que 1% anual, incluido decrecimiento",
+    "threshold": 0.01,
+    "threshold_origin": "Criterio operativo del proyecto, fijado antes de calcular las etiquetas. No es una categoría oficial del INE."
+  },
+  "features": ["log_poblacion", "proporcion_menores_15", "proporcion_65_mas"],
+  "feature_timing": "Todas las entradas proceden exclusivamente del censo inicial. No usar año final, población final, crecimiento del intervalo, etiquetas, identificadores o nombres comunales como entradas.",
+  "split": {
+    "train": [1992, 2002],
+    "validation": [2002, 2017],
+    "test": [2017, 2024],
+    "random_split": false,
+    "scope": "Evaluación temporal retrospectiva en territorios repetidos; no mide generalización a comunas desconocidas."
+  },
+  "alternatives": [
+    {"id": "arbol", "algorithm": "DecisionTreeClassifier", "params": {"max_depth": 3, "min_samples_leaf": 15, "class_weight": "balanced", "random_state": 2024}},
+    {"id": "bosque", "algorithm": "RandomForestClassifier", "params": {"n_estimators": 300, "max_depth": 5, "min_samples_leaf": 8, "class_weight": "balanced_subsample", "random_state": 2024, "n_jobs": 2}}
+  ],
+  "baselines": ["Clase mayoritaria de los datos de entrenamiento", "Persistencia de la clase de crecimiento del intervalo anterior, cuando esté disponible"],
+  "selection": ["Mayor F1 macro en validación", "Mayor exactitud balanceada en empate", "Árbol en empate completo por simplicidad"],
+  "decision_freeze": "Guardar elección, parámetros y métricas de validación antes de abrir las etiquetas de 2024.",
+  "final_fit": "Reentrenar únicamente la alternativa elegida con los intervalos 1992–2002 y 2002–2017 antes de evaluar 2017–2024.",
+  "metrics": ["F1 macro", "Exactitud balanceada", "Exactitud", "Precisión, recall y F1 de cada clase", "Matriz de confusión y recuentos"],
+  "test_policy": "No modificar variables, umbral, parámetros ni elección por el resultado de prueba. Reportar si el modelo no supera las referencias.",
+  "geography": "Documentar homologación antes de entrenar. No emparejar por códigos antiguos sin comprobar nombres y cambios territoriales; excluir territorios cuya equivalencia no pueda justificarse.",
+  "limitations": ["Pocos intervalos históricos y cientos de territorios por etapa", "Duraciones de 10, 15 y 7 años; la tasa anual no elimina diferencias entre épocas", "Cambios en metodología, geografía, cobertura y no respuesta", "El score del clasificador no es una probabilidad calibrada", "La utilidad para planificación necesita evaluación adicional; no es una proyección oficial", "La prueba histórica no valida automáticamente un pronóstico posterior a 2024"]
+}

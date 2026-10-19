@@ -1,0 +1,2 @@
+# Conservar los bytes originales de las fuentes y sus hashes.
+data/raw/** -text -diff

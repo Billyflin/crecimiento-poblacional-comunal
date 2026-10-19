@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hogares de Chile · Censo 2024</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Hogares de Chile, inicio"><span class="brand-icon" aria-hidden="true">↗</span> Hogares de Chile</a>
+    <span class="badge">Censo 2024 · INE</span>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">DATOS OFICIALES · CONDICIONES HABITACIONALES · ACCESO DIGITAL</p>
+      <h1>¿Cómo se conectan<br>los hogares de Chile?</h1>
+      <p class="lead">Explora cómo el acceso a internet fija y computador se relaciona con el tipo de hogar y las condiciones de su vivienda.</p>
+      <div class="stats" id="stats" aria-label="Descripción de los datos"></div>
+      <p class="context" id="context"></p>
+    </section>
+    <div class="workspace">
+      <section class="panel selection" aria-labelledby="selection-title">
+        <div class="panel-heading"><span class="step">01</span><h2 id="selection-title">Elige un contexto</h2></div>
+        <p class="hint">Busca condiciones del hogar o la vivienda. Solo aparecen combinaciones con asociaciones disponibles en el territorio.</p>
+        <form id="selection-form">
+          <label class="field-label" for="region">Territorio</label>
+          <select id="region" name="region" disabled><option value="0">Chile · todas las regiones</option></select>
+          <input id="context-choice" name="context" type="hidden" value="">
+          <div id="context-selection" class="context-selection" aria-live="polite" hidden></div>
+          <label class="field-label" for="context-search">Buscar una combinación</label>
+          <div class="context-picker" id="context-picker">
+            <div class="picker-input">
+              <input id="context-search" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="context-options" aria-describedby="picker-help" placeholder="Ej.: rural, unipersonal…" autocomplete="off" spellcheck="false" disabled>
+              <button id="context-toggle" type="button" tabindex="-1" aria-label="Mostrar combinaciones" aria-controls="context-options" aria-expanded="false" disabled><span aria-hidden="true">⌄</span></button>
+            </div>
+            <div class="picker-popup" id="context-popup" hidden>
+              <p class="picker-count" id="context-count" role="status"></p>
+              <ul id="context-options" role="listbox" aria-label="Combinaciones disponibles"></ul>
+              <p class="picker-no-matches" id="context-no-matches" hidden>Prueba con otra palabra, como «rural» o «arrendada».</p>
+            </div>
+          </div>
+          <p class="picker-help" id="picker-help">Escribe para filtrar o abre la lista. Elige con un clic o con ↑ ↓ y Enter.</p>
+          <button class="primary" type="submit" disabled id="consult">Consultar asociaciones <span aria-hidden="true">→</span></button>
+        </form>
+        <button class="example" id="example" type="button" disabled>Probar un ejemplo</button>
+        <button class="reset" id="reset" type="button" disabled>Limpiar selección</button>
+      </section>
+      <section class="results" aria-labelledby="results-title">
+        <div class="results-heading"><div class="panel-heading"><span class="step">02</span><h2 id="results-title">Asociaciones observadas</h2></div><span class="period-badge" id="territory">Chile · 2024</span></div>
+        <p class="result-message" id="result-message" aria-live="polite">Cargando modelo…</p>
+        <div id="rules"></div>
+        <div class="empty" id="empty"><div class="empty-icon" aria-hidden="true">↔</div><h3>Empieza con un contexto</h3><p>Elige una combinación disponible o prueba el ejemplo para explorar sus asociaciones.</p></div>
+      </section>
+    </div>
+    <section class="method panel" aria-labelledby="method-title">
+      <details>
+        <summary id="method-title">Cómo se eligieron las asociaciones <span aria-hidden="true">+</span></summary>
+        <p id="split-note"></p>
+        <p>Apriori compara dos configuraciones. Las reglas relacionan una o dos condiciones habitacionales con una categoría de acceso digital. Una segunda condición debe aumentar la confianza al menos 5 puntos porcentuales frente a cada condición por separado.</p>
+        <div class="table-scroll"><table><caption>Comparación sobre las mismas particiones y criterios</caption><thead><tr><th>Configuración</th><th>Soporte mínimo</th><th>Confianza mínima</th><th>Candidatas</th><th>Superan selección</th></tr></thead><tbody id="comparison"></tbody></table></div>
+        <p id="selection-note"></p>
+        <p>La prueba interna usa viviendas reservadas del mismo censo. Evalúa estabilidad dentro de esta base; una aplicación en otro año o población requiere datos adicionales. Los valores de las tarjetas describen todos los hogares con datos completos del territorio seleccionado.</p>
+        <div class="definitions"><p><strong>Confianza</strong>: proporción con el acceso digital indicado entre los hogares que cumplen las condiciones.</p><p><strong>Soporte</strong>: proporción de hogares del territorio con las condiciones y el resultado asociado.</p><p><strong>Lift</strong>: confianza dividida por la frecuencia del resultado en el territorio. Puede ser menor que 1 en una región aunque sea mayor a nivel nacional.</p></div>
+      </details>
+    </section>
+    <section class="limitations" aria-labelledby="limits-title">
+      <h2 id="limits-title">Qué podemos interpretar</h2>
+      <p>Las asociaciones describen coexistencia de características en 2024. No demuestran causas ni determinan ingresos, pobreza, elegibilidad de beneficios o la situación de una persona. Internet fija es una modalidad específica: su ausencia no implica ausencia de internet móvil o satelital.</p>
+      <p>Se excluyen hogares con información faltante en cualquiera de las variables elegidas; esa exclusión puede cambiar las frecuencias. El hacinamiento y la fuente de agua corresponden a la vivienda y se asignan a cada hogar que reside en ella. Las reglas pueden estar relacionadas entre sí.</p>
+      <p>Fuente: Instituto Nacional de Estadísticas, Censo 2024. Se unieron bases, excluyeron casos incompletos y calcularon reglas y agregados. Los derivados de datos se distribuyen con atribución bajo CC BY-SA 4.0. Proyecto académico independiente.</p>
+      <div class="source-links" id="source-links"></div>
+    </section>
+  </main>
+  <footer>Proyecto individual tutorado · Explorador de asociaciones · Primera versión con datos censales</footer>
+</body>
+</html>

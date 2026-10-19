@@ -1,0 +1,122 @@
+{
+  "retrieved_at": "2026-10-05T10:24:08.859816+00:00",
+  "publisher": "Instituto Nacional de Estadísticas de Chile",
+  "license": "CC BY-SA 4.0",
+  "files": [
+    {
+      "file": "edad_residencia_1992.html",
+      "url": "https://redatam-ine.ine.cl/redbin/RpWebStats.exe/CrossTab?",
+      "params": {
+        "MAIN": "WebServerMain.inl",
+        "BASE": "CENSO_1992",
+        "LANG": "esp",
+        "CODIGO": "XXUSUARIOXX",
+        "ITEM": "CRUCPOB",
+        "MODE": "RUN",
+        "SELECTION": "ALL",
+        "INLINESELECTION": "",
+        "FORMAT": "HTML",
+        "PERCENT": "OFF",
+        "UNIVERSE": "",
+        "FILTER": "",
+        "TEXT_FILTER": "",
+        "Submit": "Ejecutar",
+        "ROW": "PERSONA.VIVEHAB",
+        "COLUMN": "PERSONA.EDQUINQ",
+        "CONTROL": "",
+        "AREABREAK": ""
+      },
+      "bytes": 397439,
+      "sha256": "a6dd2b414fb0466bec4519d698d56216e40dd1ebb6fc3aa22b407bca6b2a30ca"
+    },
+    {
+      "file": "edad_residencia_2002.html",
+      "url": "https://redatam-ine.ine.cl/redbin/RpWebStats.exe/CrossTab?",
+      "params": {
+        "MAIN": "WebServerMain.inl",
+        "BASE": "CENSO_2002",
+        "LANG": "esp",
+        "CODIGO": "XXUSUARIOXX",
+        "ITEM": "CRUCPOB",
+        "MODE": "RUN",
+        "SELECTION": "ALL",
+        "INLINESELECTION": "",
+        "FORMAT": "HTML",
+        "PERCENT": "OFF",
+        "UNIVERSE": "",
+        "FILTER": "",
+        "TEXT_FILTER": "",
+        "Submit": "Ejecutar",
+        "ROW": "PERSONA.VIVEHAB",
+        "COLUMN": "PERSONA.EDQUINQ",
+        "CONTROL": "",
+        "AREABREAK": ""
+      },
+      "bytes": 347336,
+      "sha256": "24212f5052fd331bd7135846af70c1847482e48a9f9d824f885591e4f6629b17"
+    },
+    {
+      "file": "edad_residencia_2017.html",
+      "url": "https://redatam-ine.ine.cl/redbin/RpWebStats.exe/CrossTab?",
+      "params": {
+        "MAIN": "WebServerMain.inl",
+        "BASE": "CENSO_2017",
+        "LANG": "esp",
+        "CODIGO": "XXUSUARIOXX",
+        "ITEM": "CRUCPOB",
+        "MODE": "RUN",
+        "SELECTION": "ALL",
+        "INLINESELECTION": "",
+        "FORMAT": "HTML",
+        "PERCENT": "OFF",
+        "UNIVERSE": "",
+        "FILTER": "",
+        "TEXT_FILTER": "",
+        "Submit": "Ejecutar",
+        "ROW": "PERSONA.P10COMUNA",
+        "COLUMN": "PERSONA.EDQUINQ",
+        "CONTROL": "",
+        "AREABREAK": ""
+      },
+      "bytes": 306826,
+      "sha256": "efa35d98f0ee8522f809f9d19638d75e59b3b354a44c3d4b68cf78067ff8f609"
+    },
+    {
+      "file": "edad_local_2017.html",
+      "url": "https://redatam-ine.ine.cl/redbin/RpWebStats.exe/AreaList?",
+      "params": {
+        "MAIN": "WebServerMain.inl",
+        "BASE": "CENSO_2017",
+        "LANG": "esp",
+        "CODIGO": "XXUSUARIOXX",
+        "ITEM": "AREAPOB",
+        "MODE": "RUN",
+        "SELECTION": "ALL",
+        "INLINESELECTION": "",
+        "FORMAT": "HTML",
+        "PERCENT": "OFF",
+        "UNIVERSE": "",
+        "FILTER": "",
+        "TEXT_FILTER": "PERSONA.P10 = 1 OR PERSONA.P10 = 2",
+        "Submit": "Ejecutar",
+        "VARIABLE": "PERSONA.EDQUINQ",
+        "OUTPUT": "COMUNA",
+        "TOTCOL": "on"
+      },
+      "bytes": 262995,
+      "sha256": "996b8f65fac8ed7a81862c81459f768af0d3c9686d4447edd685396b1e5352d4"
+    },
+    {
+      "file": "poblacion_2024.xlsx",
+      "url": "https://censo2024.ine.gob.cl/wp-content/uploads/2025/03/D1_Poblacion-censada-por-sexo-y-edad-en-grupos-quinquenales.xlsx",
+      "bytes": 505437,
+      "sha256": "1f3a9c97a1b3defa47a2fc3b8495688c4e08f164063cab704e7a18c41239e009"
+    },
+    {
+      "file": "residentes_2017.xlsx",
+      "url": "https://censo2024.ine.gob.cl/wp-content/uploads/2025/04/Poblacion-censada-y-residentes-habituales-Censo-2017.xlsx",
+      "bytes": 69970,
+      "sha256": "ea5aa0f3a1bad6acce93252e7f1e590f11dd721d1331eb71e6b84597f2bab297"
+    }
+  ]
+}

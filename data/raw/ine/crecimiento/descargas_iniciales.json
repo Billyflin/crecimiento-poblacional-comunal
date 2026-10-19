@@ -1,0 +1,14 @@
+[
+  {
+    "file": "data/raw/ine/crecimiento/poblacion_2024.xlsx",
+    "url": "https://censo2024.ine.gob.cl/wp-content/uploads/2025/03/D1_Poblacion-censada-por-sexo-y-edad-en-grupos-quinquenales.xlsx",
+    "bytes": 505437,
+    "sha256": "1f3a9c97a1b3defa47a2fc3b8495688c4e08f164063cab704e7a18c41239e009"
+  },
+  {
+    "file": "data/raw/ine/crecimiento/residentes_2017.xlsx",
+    "url": "https://censo2024.ine.gob.cl/wp-content/uploads/2025/04/Poblacion-censada-y-residentes-habituales-Censo-2017.xlsx",
+    "bytes": 69970,
+    "sha256": "ea5aa0f3a1bad6acce93252e7f1e590f11dd721d1331eb71e6b84597f2bab297"
+  }
+]

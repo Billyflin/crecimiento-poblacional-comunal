@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "purpose": "Explorador educativo de asociaciones de resistencia entre familias de antibióticos",
+  "input_cohort": "results/primera_prueba/cohorte.csv",
+  "input_cohort_sha256": "d023afc6afaae8684eb8dd12050e5b7eff9a6929260c41cf7ff9396f59a93445",
+  "input_protocol": "experiments/protocolo_primera_prueba.json",
+  "input_protocol_sha256": "d97c5252e5b4a29e88443ea9884041ece56c71ee1f3a0a202d6b2bb36d92e925",
+  "cohort_changes": "Ninguno: mismos seis antibióticos, MIC, cortes históricos y 3933 casos completos de la prueba preliminar.",
+  "periods": {
+    "discovery": [2017, 2018, 2019, 2020, 2021],
+    "selection": [2022],
+    "confirmation": [2023, 2024]
+  },
+  "evaluation_status": "Exploratorio: todos estos años ya aparecieron en la prueba preliminar. La confirmación no es una prueba independiente inédita.",
+  "search": {
+    "max_itemset_size": 3,
+    "min_lift": 1.5,
+    "min_joint_count": 20,
+    "min_antecedent_count": 30,
+    "cross_family_only": true,
+    "antecedent_distinct_families": true,
+    "configurations": [
+      {"name": "amplia", "min_support": 0.005, "min_confidence": 0.40},
+      {"name": "conservadora", "min_support": 0.010, "min_confidence": 0.60}
+    ]
+  },
+  "selection": {
+    "common_2022_thresholds": {"min_confidence": 0.50, "min_lift": 1.5, "min_joint_count": 8, "min_antecedent_count": 10},
+    "lab_thresholds_on_discovery": {"min_labs_with_5_antecedent_samples": 3, "min_leave_one_lab_out_lift": 1.2},
+    "ranking": ["Mayor número de direcciones entre familias con al menos una regla elegible", "Mayor proporción de reglas elegibles", "En empate, configuración conservadora"],
+    "no_eligible_rule_policy": "Sin modelo entre familias seleccionado; comunicar ausencia de evidencia suficiente.",
+    "publication": "Solo reglas que cumplen los criterios comunes de 2022 y de laboratorio. No filtrar ni ordenar por resultados de 2023–2024.",
+    "within_family_redundancy": "Se excluye todo consecuente cuya familia ya está en el antecedente; máximo una variable por familia en el antecedente. Esto reduce redundancia, pero no demuestra novedad clínica."
+  }
+}

@@ -1,0 +1,1667 @@
+{
+  "source_scope": "Residentes habituales con comuna identificada; no se imputa residencia desconocida.",
+  "source_notes": [
+    "REDATAM 2017 rotula el grupo 85–89 como 85–99. Para esta prueba se suman todas las categorías de 65 o más, sin solaparlas.",
+    "REDATAM 1992 repite Caldera; se excluyen Caldera y Calera en vez de adivinar una corrección."
+  ],
+  "years": {
+    "1992": {
+      "mapped_territories": 341,
+      "identified_residents": 13215648,
+      "unmatched_categories": [
+        {
+          "label": "ANGOLA",
+          "count": 1
+        },
+        {
+          "label": "BURUNDI",
+          "count": 1
+        },
+        {
+          "label": "COSTA DE MARFIL",
+          "count": 1
+        },
+        {
+          "label": "CHAD",
+          "count": 1
+        },
+        {
+          "label": "EGIPTO",
+          "count": 25
+        },
+        {
+          "label": "ETIOPIA",
+          "count": 1
+        },
+        {
+          "label": "GUINEA-BISSAU",
+          "count": 1
+        },
+        {
+          "label": "LIBERIA",
+          "count": 1
+        },
+        {
+          "label": "LIBIA",
+          "count": 1
+        },
+        {
+          "label": "MAURICIO, ISLA",
+          "count": 1
+        },
+        {
+          "label": "NIGERIA",
+          "count": 5
+        },
+        {
+          "label": "SEYCHELLES, ISLAS",
+          "count": 2
+        },
+        {
+          "label": "SOMALIA",
+          "count": 1
+        },
+        {
+          "label": "REPUBLICA SUDAFRICANA",
+          "count": 36
+        },
+        {
+          "label": "TANZANIA",
+          "count": 24
+        },
+        {
+          "label": "TOGO",
+          "count": 1
+        },
+        {
+          "label": "UGANDA",
+          "count": 1
+        },
+        {
+          "label": "ZAIRE",
+          "count": 2
+        },
+        {
+          "label": "ARABIA SAUDITA",
+          "count": 2
+        },
+        {
+          "label": "BANGLADESH",
+          "count": 42
+        },
+        {
+          "label": "BIRMANIA",
+          "count": 2
+        },
+        {
+          "label": "BRUNEI",
+          "count": 1
+        },
+        {
+          "label": "BUTAN",
+          "count": 1
+        },
+        {
+          "label": "KAMPUCHEA",
+          "count": 1
+        },
+        {
+          "label": "SRI LANKA",
+          "count": 17
+        },
+        {
+          "label": "COREA DEL SUR",
+          "count": 32
+        },
+        {
+          "label": "COREA DEL NORTE",
+          "count": 20
+        },
+        {
+          "label": "CHINA",
+          "count": 27
+        },
+        {
+          "label": "CHIPRE",
+          "count": 1
+        },
+        {
+          "label": "FILIPINAS",
+          "count": 355
+        },
+        {
+          "label": "TAIWAN",
+          "count": 6
+        },
+        {
+          "label": "HONG-KONG",
+          "count": 3
+        },
+        {
+          "label": "INDIA",
+          "count": 42
+        },
+        {
+          "label": "INDONESIA",
+          "count": 8
+        },
+        {
+          "label": "IRAK",
+          "count": 8
+        },
+        {
+          "label": "IRAN",
+          "count": 5
+        },
+        {
+          "label": "ISRAEL",
+          "count": 76
+        },
+        {
+          "label": "JAPON",
+          "count": 141
+        },
+        {
+          "label": "JORDANIA",
+          "count": 22
+        },
+        {
+          "label": "KUWAIT",
+          "count": 1
+        },
+        {
+          "label": "MACAO",
+          "count": 7
+        },
+        {
+          "label": "MALASIA",
+          "count": 5
+        },
+        {
+          "label": "NEPAL",
+          "count": 2
+        },
+        {
+          "label": "OMAN",
+          "count": 1
+        },
+        {
+          "label": "PAKISTAN",
+          "count": 8
+        },
+        {
+          "label": "SINGAPUR",
+          "count": 2
+        },
+        {
+          "label": "SIRIA",
+          "count": 2
+        },
+        {
+          "label": "TAILANDIA",
+          "count": 4
+        },
+        {
+          "label": "TURQUIA",
+          "count": 4
+        },
+        {
+          "label": "VIETNAM",
+          "count": 1
+        },
+        {
+          "label": "ISRAEL",
+          "count": 6
+        },
+        {
+          "label": "ANTIGUA, ISLA",
+          "count": 2
+        },
+        {
+          "label": "ARUBA, CURACAO, BONAIRE",
+          "count": 3
+        },
+        {
+          "label": "ARGENTINA",
+          "count": 4888
+        },
+        {
+          "label": "BARBADOS, ISLA",
+          "count": 1
+        },
+        {
+          "label": "BELICE (HONDURAS BRITANICAS)",
+          "count": 3
+        },
+        {
+          "label": "BERMUDAS, ISLAS",
+          "count": 2
+        },
+        {
+          "label": "BOLIVIA",
+          "count": 665
+        },
+        {
+          "label": "BRASIL",
+          "count": 767
+        },
+        {
+          "label": "CAIMANES, ISLAS",
+          "count": 1
+        },
+        {
+          "label": "CANADA",
+          "count": 348
+        },
+        {
+          "label": "COLOMBIA",
+          "count": 124
+        },
+        {
+          "label": "COSTA RICA",
+          "count": 49
+        },
+        {
+          "label": "CUBA",
+          "count": 60
+        },
+        {
+          "label": "DOMINICA, ISLA",
+          "count": 1
+        },
+        {
+          "label": "REPUBLICA DOMINICANA",
+          "count": 7
+        },
+        {
+          "label": "ECUADOR",
+          "count": 256
+        },
+        {
+          "label": "EL SALVADOR",
+          "count": 8
+        },
+        {
+          "label": "ESTADOS UNIDOS",
+          "count": 1452
+        },
+        {
+          "label": "FALKLAND O MALVINAS",
+          "count": 1
+        },
+        {
+          "label": "GRENADA, ISLAS",
+          "count": 1
+        },
+        {
+          "label": "GUADALUPE, ISLA",
+          "count": 1
+        },
+        {
+          "label": "GUATEMALA",
+          "count": 12
+        },
+        {
+          "label": "GUYANA",
+          "count": 2
+        },
+        {
+          "label": "HAITI",
+          "count": 2
+        },
+        {
+          "label": "HONDURAS",
+          "count": 15
+        },
+        {
+          "label": "JAMAICA",
+          "count": 4
+        },
+        {
+          "label": "LAS BAHAMAS, ISLAS",
+          "count": 5
+        },
+        {
+          "label": "MARTINICA, ISLA",
+          "count": 1
+        },
+        {
+          "label": "MEXICO",
+          "count": 158
+        },
+        {
+          "label": "MONSERRAT, ISLA",
+          "count": 2
+        },
+        {
+          "label": "NICARAGUA",
+          "count": 6
+        },
+        {
+          "label": "PANAMA",
+          "count": 24
+        },
+        {
+          "label": "PARAGUAY",
+          "count": 105
+        },
+        {
+          "label": "PERU",
+          "count": 762
+        },
+        {
+          "label": "PUERTO RICO",
+          "count": 12
+        },
+        {
+          "label": "SAINT KITTS Y NEVIS, ISLAS",
+          "count": 2
+        },
+        {
+          "label": "SANTA LUCIA, ISLA",
+          "count": 1
+        },
+        {
+          "label": "SURIMAN",
+          "count": 9
+        },
+        {
+          "label": "URUGUAY",
+          "count": 301
+        },
+        {
+          "label": "VENEZUELA",
+          "count": 279
+        },
+        {
+          "label": "ALBANIA",
+          "count": 1
+        },
+        {
+          "label": "ALEMANIA",
+          "count": 378
+        },
+        {
+          "label": "ALEMANIA",
+          "count": 63
+        },
+        {
+          "label": "ANDORRA",
+          "count": 4
+        },
+        {
+          "label": "ARMENIA",
+          "count": 1
+        },
+        {
+          "label": "AUSTRIA",
+          "count": 38
+        },
+        {
+          "label": "AZERBAIDJAN",
+          "count": 2
+        },
+        {
+          "label": "BELGICA",
+          "count": 58
+        },
+        {
+          "label": "BULGARIA",
+          "count": 1
+        },
+        {
+          "label": "DINAMARCA",
+          "count": 58
+        },
+        {
+          "label": "ESCOCIA",
+          "count": 11
+        },
+        {
+          "label": "ESPAÑA",
+          "count": 457
+        },
+        {
+          "label": "FINLANDIA",
+          "count": 19
+        },
+        {
+          "label": "FRANCIA",
+          "count": 314
+        },
+        {
+          "label": "GEORGIA",
+          "count": 2
+        },
+        {
+          "label": "GRECIA",
+          "count": 29
+        },
+        {
+          "label": "HOLANDA",
+          "count": 88
+        },
+        {
+          "label": "HUNGRIA",
+          "count": 4
+        },
+        {
+          "label": "INGLATERRA",
+          "count": 275
+        },
+        {
+          "label": "IRLANDA",
+          "count": 4
+        },
+        {
+          "label": "ISLANDIA",
+          "count": 2
+        },
+        {
+          "label": "ITALIA",
+          "count": 160
+        },
+        {
+          "label": "KIRGUIZIA",
+          "count": 1
+        },
+        {
+          "label": "LUXEMBURGO",
+          "count": 1
+        },
+        {
+          "label": "MOLDAVIA",
+          "count": 1
+        },
+        {
+          "label": "NORUEGA",
+          "count": 78
+        },
+        {
+          "label": "POLONIA",
+          "count": 6
+        },
+        {
+          "label": "PORTUGAL",
+          "count": 29
+        },
+        {
+          "label": "INGLATERRA",
+          "count": 7
+        },
+        {
+          "label": "RUMANIA",
+          "count": 7
+        },
+        {
+          "label": "SUECIA",
+          "count": 296
+        },
+        {
+          "label": "SUIZA",
+          "count": 170
+        },
+        {
+          "label": "TURKESTAN",
+          "count": 1
+        },
+        {
+          "label": "UCRANIA",
+          "count": 7
+        },
+        {
+          "label": "RUSIA",
+          "count": 71
+        },
+        {
+          "label": "UZBERKISTAN",
+          "count": 1
+        },
+        {
+          "label": "REPUBLICA FEDERADAS (EX-YUGOSLAVIA)",
+          "count": 8
+        },
+        {
+          "label": "REPUBLICA FEDERADAS (EX-YUGOSLAVIA)",
+          "count": 31
+        },
+        {
+          "label": "AUSTRALIA",
+          "count": 277
+        },
+        {
+          "label": "PAPUA-NUEVA GUINEA",
+          "count": 1
+        },
+        {
+          "label": "NUEVA, ZELANDA",
+          "count": 30
+        },
+        {
+          "label": "POLINESIA FRANCESA",
+          "count": 39
+        },
+        {
+          "label": "SAMOA OCCIDENTAL, ISLAS",
+          "count": 1
+        },
+        {
+          "label": "OTROS PAISES NO ESPECIFICADOS",
+          "count": 2
+        },
+        {
+          "label": "Región de Tarapacá",
+          "count": 36
+        },
+        {
+          "label": "Provincia Iquique",
+          "count": 36
+        },
+        {
+          "label": "Provincia Arica",
+          "count": 46
+        },
+        {
+          "label": "Provincia Parinacota",
+          "count": 23
+        },
+        {
+          "label": "Región de Antofagasta",
+          "count": 19
+        },
+        {
+          "label": "Provincia Antofagasta",
+          "count": 54
+        },
+        {
+          "label": "Provincia El Loa",
+          "count": 37
+        },
+        {
+          "label": "Provincia Tocopilla",
+          "count": 7
+        },
+        {
+          "label": "Región de Atacama",
+          "count": 27
+        },
+        {
+          "label": "Provincia Copiapó",
+          "count": 26
+        },
+        {
+          "label": "Provincia Chañaral",
+          "count": 9
+        },
+        {
+          "label": "Provincia Huasco",
+          "count": 8
+        },
+        {
+          "label": "Región de Coquimbo",
+          "count": 30
+        },
+        {
+          "label": "Provincia Elqui",
+          "count": 56
+        },
+        {
+          "label": "Provincia Choapa",
+          "count": 18
+        },
+        {
+          "label": "Provincia Limarí",
+          "count": 58
+        },
+        {
+          "label": "Región de Valparaíso",
+          "count": 43
+        },
+        {
+          "label": "Provincia Valparaíso",
+          "count": 75
+        },
+        {
+          "label": "Provincia Isla de Pascua",
+          "count": 1
+        },
+        {
+          "label": "Provincia Los Andes",
+          "count": 21
+        },
+        {
+          "label": "Provincia Petorca",
+          "count": 8
+        },
+        {
+          "label": "Provincia Quillota",
+          "count": 5
+        },
+        {
+          "label": "Provincia San Antonio",
+          "count": 45
+        },
+        {
+          "label": "Provincia San Felipe de Aconcagua",
+          "count": 10
+        },
+        {
+          "label": "Región del Libertador Gral. Bernardo O'Higgins",
+          "count": 30
+        },
+        {
+          "label": "Provincia Cachapoal",
+          "count": 76
+        },
+        {
+          "label": "Provincia Cardenal Caro",
+          "count": 17
+        },
+        {
+          "label": "Provincia Colchagua",
+          "count": 124
+        },
+        {
+          "label": "Región del Maule",
+          "count": 19
+        },
+        {
+          "label": "Provincia Talca",
+          "count": 43
+        },
+        {
+          "label": "Provincia Cauquenes",
+          "count": 6
+        },
+        {
+          "label": "Provincia Curicó",
+          "count": 41
+        },
+        {
+          "label": "Provincia Linares",
+          "count": 43
+        },
+        {
+          "label": "Región del Biobío",
+          "count": 38
+        },
+        {
+          "label": "Provincia Concepción",
+          "count": 91
+        },
+        {
+          "label": "Provincia Arauco",
+          "count": 22
+        },
+        {
+          "label": "Provincia Biobío",
+          "count": 102
+        },
+        {
+          "label": "Provincia Ñuble",
+          "count": 282
+        },
+        {
+          "label": "Región de La Araucanía",
+          "count": 26
+        },
+        {
+          "label": "Provincia Cautín",
+          "count": 375
+        },
+        {
+          "label": "Provincia Malleco",
+          "count": 142
+        },
+        {
+          "label": "Región de Los Lagos",
+          "count": 18
+        },
+        {
+          "label": "Provincia Llanquihue",
+          "count": 57
+        },
+        {
+          "label": "Provincia Chiloé",
+          "count": 362
+        },
+        {
+          "label": "Provincia Osorno",
+          "count": 52
+        },
+        {
+          "label": "Provincia Palena",
+          "count": 41
+        },
+        {
+          "label": "Provincia Valdivia",
+          "count": 81
+        },
+        {
+          "label": "Región de Aisén del Gral. Carlos Ibáñez del Campo",
+          "count": 5
+        },
+        {
+          "label": "Provincia Coihaique",
+          "count": 14
+        },
+        {
+          "label": "Provincia Aisén",
+          "count": 13
+        },
+        {
+          "label": "Provincia Capitán Prat",
+          "count": 5
+        },
+        {
+          "label": "Provincia General Carrera",
+          "count": 7
+        },
+        {
+          "label": "Región de Magallanes y de La Antártica Chilena",
+          "count": 6
+        },
+        {
+          "label": "Provincia Magallanes",
+          "count": 36
+        },
+        {
+          "label": "Provincia Antártica Chilena",
+          "count": 3
+        },
+        {
+          "label": "Provincia Tierra del Fuego",
+          "count": 19
+        },
+        {
+          "label": "Provincia Última Esperanza",
+          "count": 38
+        },
+        {
+          "label": "Región Metropolitana de Santiago",
+          "count": 13
+        },
+        {
+          "label": "Provincia Santiago",
+          "count": 881
+        },
+        {
+          "label": "Provincia Cordillera",
+          "count": 11
+        },
+        {
+          "label": "Provincia Chacabuco",
+          "count": 15
+        },
+        {
+          "label": "Provincia Maipo",
+          "count": 205
+        },
+        {
+          "label": "Provincia Melipilla",
+          "count": 3
+        },
+        {
+          "label": "Provincia Talagante",
+          "count": 2
+        },
+        {
+          "label": "IGNORADO",
+          "count": 68501
+        }
+      ]
+    },
+    "2002": {
+      "mapped_territories": 346,
+      "identified_residents": 15050796,
+      "unmatched_categories": [
+        {
+          "label": "10001",
+          "count": 13
+        },
+        {
+          "label": "10009",
+          "count": 1
+        },
+        {
+          "label": "10013",
+          "count": 2
+        },
+        {
+          "label": "10016",
+          "count": 2
+        },
+        {
+          "label": "10018",
+          "count": 1
+        },
+        {
+          "label": "10019",
+          "count": 1
+        },
+        {
+          "label": "10021",
+          "count": 2
+        },
+        {
+          "label": "10023",
+          "count": 8
+        },
+        {
+          "label": "10025",
+          "count": 1
+        },
+        {
+          "label": "10026",
+          "count": 1
+        },
+        {
+          "label": "10029",
+          "count": 10
+        },
+        {
+          "label": "10030",
+          "count": 5
+        },
+        {
+          "label": "10037",
+          "count": 3
+        },
+        {
+          "label": "10039",
+          "count": 2
+        },
+        {
+          "label": "10041",
+          "count": 1
+        },
+        {
+          "label": "10042",
+          "count": 1
+        },
+        {
+          "label": "10044",
+          "count": 17
+        },
+        {
+          "label": "10046",
+          "count": 2
+        },
+        {
+          "label": "10050",
+          "count": 35
+        },
+        {
+          "label": "10054",
+          "count": 1
+        },
+        {
+          "label": "10055",
+          "count": 1
+        },
+        {
+          "label": "10056",
+          "count": 1
+        },
+        {
+          "label": "10057",
+          "count": 1
+        },
+        {
+          "label": "10059",
+          "count": 2
+        },
+        {
+          "label": "20004",
+          "count": 4427
+        },
+        {
+          "label": "20005",
+          "count": 2
+        },
+        {
+          "label": "20006",
+          "count": 1
+        },
+        {
+          "label": "20009",
+          "count": 3
+        },
+        {
+          "label": "20010",
+          "count": 799
+        },
+        {
+          "label": "20011",
+          "count": 935
+        },
+        {
+          "label": "20012",
+          "count": 343
+        },
+        {
+          "label": "20014",
+          "count": 212
+        },
+        {
+          "label": "20015",
+          "count": 48
+        },
+        {
+          "label": "20016",
+          "count": 140
+        },
+        {
+          "label": "20017",
+          "count": 7
+        },
+        {
+          "label": "20018",
+          "count": 435
+        },
+        {
+          "label": "20019",
+          "count": 17
+        },
+        {
+          "label": "20020",
+          "count": 1920
+        },
+        {
+          "label": "20024",
+          "count": 18
+        },
+        {
+          "label": "20025",
+          "count": 1
+        },
+        {
+          "label": "20026",
+          "count": 1
+        },
+        {
+          "label": "20027",
+          "count": 8
+        },
+        {
+          "label": "20028",
+          "count": 9
+        },
+        {
+          "label": "20031",
+          "count": 3
+        },
+        {
+          "label": "20035",
+          "count": 1
+        },
+        {
+          "label": "20037",
+          "count": 245
+        },
+        {
+          "label": "20039",
+          "count": 13
+        },
+        {
+          "label": "20040",
+          "count": 49
+        },
+        {
+          "label": "20041",
+          "count": 118
+        },
+        {
+          "label": "20042",
+          "count": 1205
+        },
+        {
+          "label": "20043",
+          "count": 23
+        },
+        {
+          "label": "20044",
+          "count": 23
+        },
+        {
+          "label": "20047",
+          "count": 2
+        },
+        {
+          "label": "20048",
+          "count": 1
+        },
+        {
+          "label": "20051",
+          "count": 245
+        },
+        {
+          "label": "20052",
+          "count": 248
+        },
+        {
+          "label": "30003",
+          "count": 1
+        },
+        {
+          "label": "30011",
+          "count": 68
+        },
+        {
+          "label": "30012",
+          "count": 1
+        },
+        {
+          "label": "30013",
+          "count": 132
+        },
+        {
+          "label": "30015",
+          "count": 5
+        },
+        {
+          "label": "30016",
+          "count": 67
+        },
+        {
+          "label": "30017",
+          "count": 2
+        },
+        {
+          "label": "30018",
+          "count": 1
+        },
+        {
+          "label": "30019",
+          "count": 4
+        },
+        {
+          "label": "30020",
+          "count": 87
+        },
+        {
+          "label": "30021",
+          "count": 114
+        },
+        {
+          "label": "30022",
+          "count": 2
+        },
+        {
+          "label": "30025",
+          "count": 1
+        },
+        {
+          "label": "30026",
+          "count": 2
+        },
+        {
+          "label": "30028",
+          "count": 2
+        },
+        {
+          "label": "30034",
+          "count": 4
+        },
+        {
+          "label": "30035",
+          "count": 7
+        },
+        {
+          "label": "30037",
+          "count": 35
+        },
+        {
+          "label": "30039",
+          "count": 29
+        },
+        {
+          "label": "30040",
+          "count": 36
+        },
+        {
+          "label": "30041",
+          "count": 7
+        },
+        {
+          "label": "30042",
+          "count": 6
+        },
+        {
+          "label": "30043",
+          "count": 5
+        },
+        {
+          "label": "30044",
+          "count": 11
+        },
+        {
+          "label": "30047",
+          "count": 22
+        },
+        {
+          "label": "40002",
+          "count": 552
+        },
+        {
+          "label": "40003",
+          "count": 2
+        },
+        {
+          "label": "40004",
+          "count": 58
+        },
+        {
+          "label": "40005",
+          "count": 103
+        },
+        {
+          "label": "40007",
+          "count": 1
+        },
+        {
+          "label": "40008",
+          "count": 3
+        },
+        {
+          "label": "40009",
+          "count": 3
+        },
+        {
+          "label": "40010",
+          "count": 14
+        },
+        {
+          "label": "40011",
+          "count": 50
+        },
+        {
+          "label": "40012",
+          "count": 2
+        },
+        {
+          "label": "40013",
+          "count": 2
+        },
+        {
+          "label": "40014",
+          "count": 743
+        },
+        {
+          "label": "40015",
+          "count": 32
+        },
+        {
+          "label": "40016",
+          "count": 19
+        },
+        {
+          "label": "40017",
+          "count": 507
+        },
+        {
+          "label": "40019",
+          "count": 19
+        },
+        {
+          "label": "40020",
+          "count": 134
+        },
+        {
+          "label": "40021",
+          "count": 5
+        },
+        {
+          "label": "40022",
+          "count": 18
+        },
+        {
+          "label": "40023",
+          "count": 2
+        },
+        {
+          "label": "40025",
+          "count": 222
+        },
+        {
+          "label": "40026",
+          "count": 1
+        },
+        {
+          "label": "40028",
+          "count": 2
+        },
+        {
+          "label": "40029",
+          "count": 3
+        },
+        {
+          "label": "40030",
+          "count": 1
+        },
+        {
+          "label": "40031",
+          "count": 3
+        },
+        {
+          "label": "40032",
+          "count": 1
+        },
+        {
+          "label": "40033",
+          "count": 104
+        },
+        {
+          "label": "40034",
+          "count": 44
+        },
+        {
+          "label": "40035",
+          "count": 13
+        },
+        {
+          "label": "40036",
+          "count": 333
+        },
+        {
+          "label": "40037",
+          "count": 13
+        },
+        {
+          "label": "40039",
+          "count": 20
+        },
+        {
+          "label": "40040",
+          "count": 1
+        },
+        {
+          "label": "40041",
+          "count": 337
+        },
+        {
+          "label": "40042",
+          "count": 207
+        },
+        {
+          "label": "40043",
+          "count": 35
+        },
+        {
+          "label": "40044",
+          "count": 1
+        },
+        {
+          "label": "40045",
+          "count": 9
+        },
+        {
+          "label": "50002",
+          "count": 370
+        },
+        {
+          "label": "50005",
+          "count": 2
+        },
+        {
+          "label": "50023",
+          "count": 11
+        },
+        {
+          "label": "50026",
+          "count": 46
+        },
+        {
+          "label": "50027",
+          "count": 1
+        },
+        {
+          "label": "50030",
+          "count": 1
+        },
+        {
+          "label": "50034",
+          "count": 38
+        },
+        {
+          "label": "99999",
+          "count": 49284
+        }
+      ]
+    },
+    "2017": {
+      "mapped_territories": 346,
+      "identified_residents": 17315686,
+      "unmatched_categories": [
+        {
+          "label": "Comuna no declarada",
+          "count": 9461
+        },
+        {
+          "label": "Región de Tarapacá",
+          "count": 89
+        },
+        {
+          "label": "Región de Antofagasta",
+          "count": 74
+        },
+        {
+          "label": "Región de Atacama",
+          "count": 72
+        },
+        {
+          "label": "Región de Coquimbo",
+          "count": 74
+        },
+        {
+          "label": "Región de Valparaíso",
+          "count": 150
+        },
+        {
+          "label": "Región del Libertador General Bernardo O’Higgins",
+          "count": 108
+        },
+        {
+          "label": "Región del Maule",
+          "count": 61
+        },
+        {
+          "label": "Región de Biobío (previo a Región de Ñuble)",
+          "count": 212
+        },
+        {
+          "label": "Región de La Araucanía",
+          "count": 172
+        },
+        {
+          "label": "Región de Los Lagos",
+          "count": 437
+        },
+        {
+          "label": "Región de Aysén del General Carlos Ibáñez del Campo",
+          "count": 16
+        },
+        {
+          "label": "Región de Magallanes y de la Antártica Chilena",
+          "count": 117
+        },
+        {
+          "label": "Región Metropolitana de Santiago",
+          "count": 259
+        },
+        {
+          "label": "Región de Los Ríos",
+          "count": 38
+        },
+        {
+          "label": "Región de Arica y Parinacota",
+          "count": 166
+        }
+      ]
+    }
+  },
+  "independent_2017_check": {
+    "compared_communes": 346,
+    "differences": []
+  },
+  "exclusions": [
+    {
+      "code": 1101,
+      "name": "Iquique",
+      "region": "Tarapacá",
+      "region_code": 1,
+      "key": "iquique",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 1107,
+      "name": "Alto Hospicio",
+      "region": "Tarapacá",
+      "region_code": 1,
+      "key": "altohospicio",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 3102,
+      "name": "Caldera",
+      "region": "Atacama",
+      "region_code": 3,
+      "key": "caldera",
+      "reason": "Dos etiquetas Caldera en REDATAM 1992; no corregir ni unir por conjetura"
+    },
+    {
+      "code": 4105,
+      "name": "Paihuano",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "paihuano",
+      "reason": "Cambio de límite de Ley 20.721 (2014)"
+    },
+    {
+      "code": 4106,
+      "name": "Vicuña",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "vicuna",
+      "reason": "Cambio de límite de Ley 20.721 (2014)"
+    },
+    {
+      "code": 4302,
+      "name": "Combarbalá",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "combarbala",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 4304,
+      "name": "Punitaqui",
+      "region": "Coquimbo",
+      "region_code": 4,
+      "key": "punitaqui",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 5103,
+      "name": "Concón",
+      "region": "Valparaíso",
+      "region_code": 5,
+      "key": "concon",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 5109,
+      "name": "Viña del Mar",
+      "region": "Valparaíso",
+      "region_code": 5,
+      "key": "vinadelmar",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 5502,
+      "name": "Calera",
+      "region": "Valparaíso",
+      "region_code": 5,
+      "key": "calera",
+      "reason": "Dos etiquetas Caldera en REDATAM 1992; no corregir ni unir por conjetura"
+    },
+    {
+      "code": 13112,
+      "name": "La Pintana",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "lapintana",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 13201,
+      "name": "Puente Alto",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "puentealto",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 13604,
+      "name": "Padre Hurtado",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "padrehurtado",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 13605,
+      "name": "Peñaflor",
+      "region": "Metropolitana de Santiago",
+      "region_code": 13,
+      "key": "penaflor",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 7106,
+      "name": "Pelarco",
+      "region": "Maule",
+      "region_code": 7,
+      "key": "pelarco",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 7110,
+      "name": "San Rafael",
+      "region": "Maule",
+      "region_code": 7,
+      "key": "sanrafael",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 16101,
+      "name": "Chillán",
+      "region": "Ñuble",
+      "region_code": 16,
+      "key": "chillan",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 16103,
+      "name": "Chillán Viejo",
+      "region": "Ñuble",
+      "region_code": 16,
+      "key": "chillanviejo",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8101,
+      "name": "Concepción",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "concepcion",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8103,
+      "name": "Chiguayante",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "chiguayante",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8108,
+      "name": "San Pedro de La paz",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "sanpedrodelapaz",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 8110,
+      "name": "Talcahuano",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "talcahuano",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 8112,
+      "name": "Hualpén",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "hualpen",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 8311,
+      "name": "Santa Bárbara",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "santabarbara",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 8314,
+      "name": "Alto Biobío",
+      "region": "Biobío",
+      "region_code": 8,
+      "key": "altobiobio",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 9101,
+      "name": "Temuco",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "temuco",
+      "reason": "Creación o división comunal 1994–1996; geografía histórica pendiente de certificar"
+    },
+    {
+      "code": 9105,
+      "name": "Freire",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "freire",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 9111,
+      "name": "Nueva Imperial",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "nuevaimperial",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 9112,
+      "name": "Padre Las Casas",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "padrelascasas",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 9121,
+      "name": "Cholchol",
+      "region": "La Araucanía",
+      "region_code": 9,
+      "key": "cholchol",
+      "reason": "Creación de comunas en 2004 y sus comunas de origen"
+    },
+    {
+      "code": 10101,
+      "name": "Puerto Montt",
+      "region": "Los Lagos",
+      "region_code": 10,
+      "key": "puertomontt",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    },
+    {
+      "code": 10109,
+      "name": "Puerto Varas",
+      "region": "Los Lagos",
+      "region_code": 10,
+      "key": "puertovaras",
+      "reason": "Cambios de límites de Ley 20.578 (2012)"
+    }
+  ],
+  "included_communes": 314,
+  "geography_limit": "Exclusiones de cambios conocidos y unión por identidad documentada. Falta certificar todos los límites con cartografías históricas; prueba preliminar."
+}

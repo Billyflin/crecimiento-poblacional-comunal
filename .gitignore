@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.runtime/
+.env
+.env.*
+!.env.example
+docs/inscripcion_proyecto_*.png
+data/raw/ine/*.zip
+data/raw/ine/*.part

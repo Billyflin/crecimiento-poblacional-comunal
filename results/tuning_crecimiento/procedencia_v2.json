@@ -1,0 +1,14 @@
+{
+  "results/crecimiento_v2/evaluacion.png": "da4b1c0e218c20583d2946ab403a6ce2a4d22063ecf230a39200298cd9a35b8b",
+  "results/crecimiento_v2/seleccion_cerrada.json": "7fa8e8e3ef1eb3f5ca27a1ca9ce1c94391942dd26db9ad61b757389e87dae725",
+  "results/crecimiento_v2/comparacion_validacion.csv": "c62a70fe3e9f965165ac25927eab67d3bb21da1585594df2590b0a299b2796a7",
+  "results/crecimiento_v2/modelo.json": "c2eaf049ee7c7d6735d18d25d342d2b0654d625039b1226dea56f34745e34fa1",
+  "results/crecimiento_v2/prototipo.jpg": "6d8f602d9d9e5773796a26570fab40c59f96d015bedfa42517ba7be4a1d7dc90",
+  "results/crecimiento_v2/calidad_datos.json": "112c590aa0fc07111a3de4d4bcf3c2d70971c86820de351d2367d3fbe0fcb7f7",
+  "results/crecimiento_v2/clasificador_historico.joblib": "430139e18cc3a0c2cba3fdb3338c586e535481185970a6a3e72d23babe3f718d",
+  "results/crecimiento_v2/clasificador_futuro.joblib": "4e3e4b81481ea86b90a5992ee84bca702315527b6b9ded625f5c39d9776df8e2",
+  "results/crecimiento_v2/predicciones_historicas.csv": "a9d11d4b964ff64cdb922d9535877721ab97555ea83431c0700e167e916b2fef",
+  "results/crecimiento_v2/resumen.json": "758b33ba141ded02dd3b4d86510de4f474d8ab4cdafc912db6ef965a83983961",
+  "results/crecimiento_v2/perfiles_censales.csv": "55c7314a9120dd930bca7588bf2db82c3492b0da8740b5aa4743cf3cdd347af9",
+  "results/crecimiento_v2/predicciones_validacion.csv": "ada5f4a13e10cc60ea26a7e83ee27cda3f5904212251e42276274f95c71426f4"
+}
