@@ -136,8 +136,8 @@ for ax, (a, b) in zip(axes, [('1992-2002', '2002-2017'), ('2002-2017', '2017-202
     d = d.clip(-4, 8)
     ax.scatter(d[a], d[b], s=10, alpha=.5)
     ax.axvline(1, color='#C44E52', ls='--', lw=1); ax.axhline(1, color='#C44E52', ls='--', lw=1)
-    r = tasas[[a, b]].corr().iloc[0, 1]
-    ax.set_title(f'{a} vs {b}  (r = {r:.2f})'); ax.set_xlabel(f'% anual {a}'); ax.set_ylabel(f'% anual {b}')
+    r = tasas[[a, b]].corr(method='spearman').iloc[0, 1]
+    ax.set_title(f'{a} vs {b}  (Spearman ρ = {r:.2f})'); ax.set_xlabel(f'% anual {a}'); ax.set_ylabel(f'% anual {b}')
 plt.tight_layout(); plt.savefig(FIG / 'eda_persistencia.png', bbox_inches='tight'); plt.show()
 
 for a, b in [('1992-2002', '2002-2017'), ('2002-2017', '2017-2024')]:

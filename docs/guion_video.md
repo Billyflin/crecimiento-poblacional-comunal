@@ -17,7 +17,7 @@ Cada parte explica **por qué** se tomó una decisión y **por qué** salió ese
 ### 3. Lo que mostró el análisis exploratorio (0:45–1:15)
 **Pantalla:** `eda_persistencia.png`, luego la tabla regional.
 
-> "El hallazgo central es que **el mejor indicador de crecimiento futuro es el crecimiento pasado**: la correlación es 0,65. Tiene sentido, porque las causas del crecimiento (suelo disponible, empleo, migración) cambian lento. La edad aporta algo: las comunas envejecidas crecen menos probablemente porque nacen menos niños y los jóvenes se van. El tamaño casi no importa.
+> "El hallazgo central es que **el mejor indicador de crecimiento futuro es el crecimiento pasado**: la correlación de Spearman es 0,65, aunque en el período siguiente baja a 0,42. Tiene sentido, porque las causas del crecimiento (suelo disponible, empleo, migración) cambian lento. La edad aporta algo: las comunas envejecidas crecen menos probablemente porque nacen menos niños y los jóvenes se van. El tamaño casi no importa.
 >
 > Pero también vi algo que después explica los errores: **el crecimiento cambió de lugar**. Entre 2002 y 2017 crecían sobre todo la Región Metropolitana y Valparaíso. Entre 2017 y 2024 crecieron el centro-sur: en Ñuble se pasó de 11% a 84% de comunas creciendo."
 
