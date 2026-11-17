@@ -15,6 +15,7 @@ Proyecto semestral de Ingeniería de Datos. Técnica asignada: **clasificación*
 | Análisis exploratorio | [`notebooks/01_analisis_exploratorio.ipynb`](notebooks/01_analisis_exploratorio.ipynb) |
 | Experimento comparativo | [`notebooks/02_experimento_clasificacion.ipynb`](notebooks/02_experimento_clasificacion.ipynb) |
 | Figuras de la entrega | [`results/entrega/`](results/entrega/) |
+| Videos de presentación | [Carpeta en Google Drive](https://drive.google.com/drive/folders/1_k38n2Y08cYx9JdCXPPC_kKIHOFvcPyf): 1) proceso y código, 2) resultados |
 
 Los notebooks se guardaron ya ejecutados, con todas sus salidas visibles.
 
