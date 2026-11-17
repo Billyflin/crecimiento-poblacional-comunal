@@ -1,3 +1,0 @@
-configuration,min_support,min_confidence,discovery_n,validation_n,rules_found,same_class_only_rules,strictly_cross_class_rules,passes_all_thresholds_in_validation
-exploratoria,0.02,0.6,2778,1155,12,4,0,12
-estricta,0.05,0.8,2778,1155,12,4,0,12

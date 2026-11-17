@@ -1,6 +1,6 @@
 # Historial de versiones (README anterior)
 
-> Documento conservado. El README vigente de la entrega está en la raíz del repositorio.
+> Documento conservado como registro del proceso. Algunas rutas que menciona (notebooks antiguos en `experiments/`, `archive/`) se retiraron del repositorio para dejarlo limpio; siguen disponibles en el historial de git. El README vigente está en la raíz.
 
 Proyecto individual tutorado con **Pablo Valenzuela**, usando tabulados oficiales de los censos 1992, 2002, 2017 y 2024 del INE. La aplicación clasifica si una comuna tendrá crecimiento medio de **al menos 1% anual**. El umbral es una decisión del proyecto; no se predice un número exacto de habitantes ni se ofrece una proyección oficial.
 

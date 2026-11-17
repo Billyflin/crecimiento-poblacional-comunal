@@ -15,7 +15,6 @@ Proyecto semestral de Ingeniería de Datos. Técnica asignada: **clasificación*
 | Análisis exploratorio | [`notebooks/01_analisis_exploratorio.ipynb`](notebooks/01_analisis_exploratorio.ipynb) |
 | Experimento comparativo | [`notebooks/02_experimento_clasificacion.ipynb`](notebooks/02_experimento_clasificacion.ipynb) |
 | Figuras de la entrega | [`results/entrega/`](results/entrega/) |
-| Guion del video | [`docs/guion_video.md`](docs/guion_video.md) |
 
 Los notebooks se guardaron ya ejecutados, con todas sus salidas visibles.
 
@@ -85,32 +84,43 @@ Matriz de confusión del modelo seleccionado en 2017–2024:
 
 ## Cómo ejecutar
 
-Se probó con Python 3.14 (las dependencias están en `requirements.txt`):
+Requisitos: **Python 3.12 o superior** y `git`. Se probó con Python 3.14 en Linux.
+
+**1. Clonar e instalar**
 
 ```bash
 git clone https://github.com/Billyflin/crecimiento-poblacional-comunal.git
 cd crecimiento-poblacional-comunal
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate          # en Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-
-# Abrir los notebooks (ya están ejecutados)
-pip install jupyterlab && jupyter lab notebooks/
-
-# O volver a ejecutarlos de cero y regenerar las figuras
-python notebooks/construir_notebooks.py
-
-# Pruebas de integridad de datos y del protocolo
-python -m unittest discover -s tests -v
 ```
 
-Para reconstruir la tabla integrada desde los archivos crudos, o volver a descargarlos:
+**2. Ver los notebooks**
+
+Los notebooks ya están ejecutados, así que GitHub los muestra con todas sus salidas. Para abrirlos en local:
 
 ```bash
-python experiments/descargar_crecimiento.py      # reutiliza los archivos existentes y verifica los hashes
+pip install jupyterlab
+jupyter lab notebooks/
+```
+
+**3. Volver a ejecutar el análisis desde cero (opcional)**
+
+```bash
+python notebooks/construir_notebooks.py     # ejecuta ambos notebooks y regenera results/entrega/
+python -m unittest discover -s tests -v     # 21 pruebas de integridad de datos y del protocolo
+```
+
+**4. Reconstruir la tabla integrada desde los archivos del INE (opcional)**
+
+Los archivos crudos ya están en `data/raw/ine/crecimiento/`. Estos scripts los reutilizan si existen y verifican sus hashes; si faltan, los descargan:
+
+```bash
+python experiments/descargar_crecimiento.py
 python experiments/descargar_fuentes_v2.py
-python experiments/crecimiento_censal.py
-python experiments/crecimiento_v2.py
+python experiments/crecimiento_censal.py    # perfiles censales y primera versión del modelo
+python experiments/crecimiento_v2.py        # tabla integrada results/crecimiento_v2/perfiles_censales.csv
 ```
 
 ## Aplicación web (opcional)
@@ -124,14 +134,13 @@ python3 app/iniciar.py --port 8787    # luego abrir http://127.0.0.1:8787/
 ## Estructura
 
 ```
-notebooks/      Notebooks de la entrega (EDA y experimento) y el script que los ejecuta
-data/raw/ine/   Tabulados INE originales y manifiestos de descarga
-experiments/    Scripts de descarga, construcción de datos, protocolos y estudios previos
-results/        Tabla integrada, modelos, predicciones y figuras (results/entrega/)
-tests/          Pruebas de integridad temporal, de datos y de reproducibilidad
-docs/           Propuesta, licencia de datos, guion del video e historial de versiones
-app/            Aplicación web (opcional)
-archive/        Versiones e intentos anteriores, conservados como registro
+notebooks/        Notebooks de la entrega (EDA y experimento) y el script que los ejecuta
+data/raw/ine/     Tabulados INE originales y manifiestos de descarga (URL, fecha, hash)
+experiments/      Descarga de datos, construcción de la tabla integrada y protocolos
+results/          Tabla integrada, modelos, predicciones y figuras (results/entrega/)
+tests/            Pruebas de integridad temporal, de datos y de reproducibilidad
+docs/             Propuesta, licencia de datos e historial de versiones
+app/              Aplicación web (opcional)
 ```
 
 El detalle de las versiones anteriores (v1, recuperación de Temuco y Padre Las Casas, intento de tuning adicional) está en [`docs/historial_versiones.md`](docs/historial_versiones.md).

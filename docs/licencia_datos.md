@@ -16,7 +16,6 @@ Atribución breve: «Fuente: INE, Censos de Población y Vivienda 1992, 2002, 20
 
 ## Estudio anterior conservado
 
-El estudio de asociaciones utilizó microdatos de hogares y viviendas de 2024; su manifiesto permanece en data/raw/ine/fuentes.json. Se unieron bases, filtraron operativos y casos incompletos y calcularon reglas y agregados. Los derivados de results/censo_2024/ mantienen la misma atribución y licencia. Sus archivos originales se conservaron al cambiar el enfoque del proyecto.
 
 ## Versión 2 y evidencia territorial
 

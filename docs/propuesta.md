@@ -58,4 +58,4 @@ Se añadieron 19 configuraciones de Random Forest, Logistic Regression y Gradien
 
 El intento obtuvo F1 macro externo 0,749, frente a 0,759 del Random Forest v2 fijo. En la reevaluación temporal exploratoria, el ajuste elegido obtuvo 193/314 aciertos y F1 0,614; v2 conserva 205/314 y F1 0,642. Cambiar solo el corte de v2 obtuvo 201/314 y F1 0,606. La continuidad conserva 213/314 y F1 0,663.
 
-Se conserva v2 en la aplicación. El resultado negativo es parte del proceso de modelado, sin interpretar scores como certeza ni continuar ajustando contra 2024. La reevaluación sigue siendo exploratoria y el escenario 2031 no está verificado. Búsqueda reproducible, particiones, tablas de las 171 combinaciones y notebook ejecutado en `experiments/estudio_tuning_crecimiento.ipynb` y `results/tuning_crecimiento/`.
+Se conserva v2 en la aplicación. El resultado negativo es parte del proceso de modelado, sin interpretar scores como certeza ni continuar ajustando contra 2024. La reevaluación sigue siendo exploratoria y el escenario 2031 no está verificado. Búsqueda reproducible, particiones, tablas de las 171 combinaciones y resultados en `results/tuning_crecimiento/`.
