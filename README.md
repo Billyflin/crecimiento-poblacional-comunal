@@ -114,7 +114,7 @@ python -m unittest discover -s tests -v     # 21 pruebas de integridad de datos 
 
 **4. Reconstruir la tabla integrada desde los archivos del INE (opcional)**
 
-Los archivos crudos ya están en `data/raw/ine/crecimiento/`. Estos scripts los reutilizan si existen y verifican sus hashes; si faltan, los descargan:
+Los archivos crudos ya están en `data/raw/ine/crecimiento/`. Estos scripts reutilizan los archivos que ya existen, descargan los que falten y registran el hash SHA-256 de cada uno en el manifiesto:
 
 ```bash
 python experiments/descargar_crecimiento.py
